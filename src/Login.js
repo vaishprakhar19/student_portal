@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from "react-router-dom";
 import './Login.css';
+
 // style={popup?{backdropFilter:'blur(5px)'}:{backdropFilter:'blur(0px)'}}
 
 function Login(props) {
@@ -29,13 +30,24 @@ function Login(props) {
     popup ? setPopup(false) : setPopup(true);
   }
   const handleReg = () => {
-    reg?setReg(false):setReg(true);
+    reg ? setReg(false) : setReg(true);
   }
 
   if (coursetemp === 'MCA') props.setStream('');
   return (
     <div className="page">
-      <button class="btn btn-primary" onClick={handlePopup}>LOGIN</button>
+    
+      <div id="introduction">
+        <div className="intro-text"> <h1 className="display-2">Hello Bro</h1>
+          <p>lorem50kflhd jjhsdkjfhkjsdhj jkhdfjkhksjdhf khdfjkhskjhdf kjdhfkjhskjdfh ksjdhfkjhdkjf skhdjkfhkjshdfkjh kjdhfkjhsdkjfhkjshdf kjdhfkjshdkfjhs kjhdfkjhskjdfh kjhdfkjhksjhdf kjdhfkjshdkjfh 000</p>
+          <button class="btn btn-primary" onClick={handlePopup}>LOGIN</button>
+        </div>
+        <img id="logo" src="https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png" />
+      </div>
+
+
+
+
 
       <form autocomplete="off" id="login-form" style={popup ? { transform: 'scale(1)' } : { transform: 'scale(0)' }}>
         <h1>Student Login</h1>
@@ -61,7 +73,7 @@ function Login(props) {
           <option hidden={coursetemp === 'MCA' ? true : false}>3</option>
           <option hidden={coursetemp === 'MCA' ? true : false}>4</option>
         </select>
-        <select hidden={coursetemp === 'MCA' ? true : false||!reg} className="select" onChange={handleStream}>
+        <select hidden={coursetemp === 'MCA' ? true : false || !reg} className="select" onChange={handleStream}>
           <option>Stream</option>
           <option>CSE</option>
           <option>ECE</option>
@@ -70,21 +82,11 @@ function Login(props) {
           <input type="checkbox" className="form-check-input" id="checkbox" />
           <label className="form-check-label" htmlFor="checkbox">Remember me</label>
         </div>
-        <p>{reg?"Don't have an account?":'Have an account?'}<Link onClick={handleReg}>{reg?"Login Here.":"Register Now."}</Link></p>
+        <p>{reg ? "Don't have an account? " : 'Have an account? '}<Link onClick={handleReg}>{reg ? "Login Here." : "Register Now."}</Link></p>
         {/* ???????????? */}
         <Link to='/home'><button type="submit" className="btn btn-primary" onClick={handleLogin}>Submit</button></Link>
       </form>
     </div>
-
-    // <div>
-    //   <br/>
-    //   <div id="center">
-    //     <img src="https://media.licdn.com/dms/image/C4D0BAQG5v3a58y4Lzg/company-logo_200_200/0/1594425078658?e=1690416000&v=beta&t=9BWJudObwnpOkWRCdSt5j5Xne-SPOWEyb72gT4An_UA" />
-    //     </div>
-    //   <div id="right">
-    //   <h1>STUDENT PORTAL BIAS</h1>
-    //   <p><b>Quicker,Easier and more faster access!!
-    //     This platform allows students to manage and keep tracks of their academics schedules.</b></p></div>
   )
 }
 
