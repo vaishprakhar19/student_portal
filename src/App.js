@@ -38,17 +38,19 @@ import {
 } from "react-router-dom";
 
 function App() {
+  const [name, setName] = useState('');
   const [course, setCourse] = useState('');
   const [year, setYear] = useState('');
   const [stream, setStream] = useState('');
+  const [login, setLogin] = useState('');
   
   return (
     <>
       <Router>
-        <Navbar/>
+        <Navbar login={login}/>
         <Routes>
-          <Route path='/login' element={<Login setCourse={setCourse} setYear={setYear} setStream={setStream}/>}/>
-          <Route path='/home' element={<Home course={course} year={year} stream={stream}/>} />
+          <Route path='/login' element={<Login setCourse={setCourse} setYear={setYear} setStream={setStream} setName={setName} setLogin={setLogin}/>}/>
+          <Route path='/home' element={<Home name={name} course={course} year={year} stream={stream}/>} />
           <Route path='/about' element={<About />} />
           <Route path='/holidays' element={<Holidays />} />
           <Route path='/sylMCA1' element={<SylMCA1 />} />

@@ -17,7 +17,13 @@ function Login(props) {
   const handleStream = (event) => {
     props.setStream(event.target.value);
   }
-
+  const handleName = (event) => {
+    props.setName(event.target.value);
+  }
+  const handleLogin = (event) => {
+    props.setLogin(true);
+  }
+  
 
   return (
     <div>
@@ -26,8 +32,8 @@ function Login(props) {
       <br />
       <form>
         <div className="form-group">
-          <label htmlFor="name">Email address</label>
-          <input required type="text" className="form-control" id="name" aria-describedby="namelHelp" placeholder="Enter Name" />
+          <label htmlFor="name">Name</label>
+          <input required type="text" className="form-control" id="name" aria-describedby="namelHelp" placeholder="Enter Name" onChange={handleName} />
         </div>
         <div className="form-group">
           <label htmlFor="email">Email address</label>
@@ -37,10 +43,6 @@ function Login(props) {
         <div className="form-group">
           <label htmlFor="password">Password</label>
           <input required type="password" className="form-control" id="password" placeholder="Password" />
-        </div>
-        <div className="form-check">
-          <input type="checkbox" className="form-check-input" id="checkbox" />
-          <label className="form-check-label" htmlFor="checkbox">Check me out</label>
         </div>
         <select className="form-control" onChange={handleCourse}>
           <option>Course</option>
@@ -59,8 +61,12 @@ function Login(props) {
           <option>CSE</option>
           <option>ECE</option>
         </select>
+        <div className="form-check">
+          <input type="checkbox" className="form-check-input" id="checkbox" />
+          <label className="form-check-label" htmlFor="checkbox">Remember me</label>
+        </div>
         {/* ???????????? */}
-       <Link to='/home'><button type="submit" className="btn btn-primary">Submit</button></Link>
+       <Link to='/home'><button type="submit" className="btn btn-primary" onClick={handleLogin}>Submit</button></Link>
       </form>
     </div>
     // <div>

@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import {Link} from "react-router-dom";
 import './Navbar.css';
 
-export default function Navbar() {    
+export default function Navbar(props) {    
   return (
     <>
     <div>
@@ -16,7 +16,7 @@ export default function Navbar() {
       <div className="collapse navbar-collapse" id="navbarcollapse">
         <ul className="navbar-nav">
           <li className="nav-item active">
-            <Link className="nav-link" to="/home">Home</Link>
+            <Link className="nav-link" to="/home" >Home</Link>
           </li>
           <li className="nav-item">
             <Link className="nav-link" to="/about">About</Link>
