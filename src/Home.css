@@ -1,0 +1,43 @@
+@media (max-width:768px){
+    .row{
+        flex-direction: column;
+    }
+    .col-md-4{
+        margin: 30px auto!important;
+    }
+}
+
+.main-heading{
+    margin:0px auto!important;
+}
+.intro p{
+    margin:5vw 0px;
+}
+.row{
+    justify-content:space-around;
+}
+.col-md-4{
+    background-color: red;
+    padding:10px 20px;
+    border-radius: 20px;
+    display:flex;
+    flex-direction: column;
+    margin: 50px 30px;
+    width:max(20vw,250px);
+    height:265px;
+}
+.col-md-4 .btn{
+width:96%;
+margin:20px auto;
+border-radius: 10px;
+}
+
+.icon{
+    font-size: 700%;
+    color:blue;
+    margin:0px auto;
+}
+.sub-heading{
+    text-align: center;
+    margin:10px auto;
+}
