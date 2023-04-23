@@ -28,19 +28,20 @@ function Login(props) {
   return (
     <div className="page">
       
-      <form>
+      <form id="login-form">
         <div className="form-group">
+          <h1>Student Login</h1>
           <label htmlFor="name">Name</label>
-          <input required type="text" className="form-control" id="name" aria-describedby="namelHelp" placeholder="Enter Name" onChange={handleName} />
+          <input required type="text" className="form-control textin" id="name" aria-describedby="namelHelp" placeholder="Enter Name" onChange={handleName} />
         </div>
         <div className="form-group">
           <label htmlFor="email">Email address</label>
-          <input required type="email" className="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email" />
+          <input required type="email" className="form-control textin" id="email" aria-describedby="emailHelp" placeholder="Enter email" />
           <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
         </div>
         <div className="form-group">
           <label htmlFor="password">Password</label>
-          <input required type="password" className="form-control" id="password" placeholder="Password" />
+          <input required type="password" className="form-control textin" id="password" placeholder="Password" />
         </div>
         <select className="form-control" onChange={handleCourse}>
           <option>Course</option>

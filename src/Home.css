@@ -22,7 +22,7 @@
     border-radius: 20px;
     display:flex;
     flex-direction: column;
-    margin: 50px auto;
+    margin: 50px 30px;
     width:max(20vw,250px);
     height:265px;
 }
