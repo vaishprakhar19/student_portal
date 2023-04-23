@@ -46,7 +46,7 @@ function App() {
   return (
     <>
       <Router>
-        <Navbar login={login}/>
+        <Navbar login={login} setLogin={setLogin}/>
         <Routes>
           <Route path='/login' element={<Login setCourse={setCourse} setYear={setYear} setStream={setStream} setName={setName} setLogin={setLogin}/>}/>
           <Route path='/home' element={<Home name={name} course={course} year={year} stream={stream}/>} />

@@ -53,10 +53,10 @@ function Login(props) {
           <option>Year</option>
           <option>1</option>
           <option>2</option>
-          <option style={coursetemp=='MCA'?{display:'none'}:{}}>3</option>
-          <option style={coursetemp=='MCA'?{display:'none'}:{}}>4</option>
+          <option hidden={coursetemp=='MCA'?true:false}>3</option>
+          <option hidden={coursetemp=='MCA'?true:false}>4</option>
         </select>
-        <select style={coursetemp=='MCA'?{display:'none'}:{}} className="form-control" onChange={handleStream}>
+        <select hidden={coursetemp=='MCA'?true:false} className="form-control" onChange={handleStream}>
           <option>Stream</option>
           <option>CSE</option>
           <option>ECE</option>
@@ -69,6 +69,7 @@ function Login(props) {
        <Link to='/home'><button type="submit" className="btn btn-primary" onClick={handleLogin}>Submit</button></Link>
       </form>
     </div>
+
     // <div>
     //   <br/>
     //   <div id="center">
@@ -76,7 +77,7 @@ function Login(props) {
     //     </div>
     //   <div id="right">
     //    <Link to='/home' ><button class="button button1">LOGIN</button></Link></div>
-    //   <h1>STUDENT PORTAL</h1>
+    //   <h1>STUDENT PORTAL BIAS</h1>
     //   <p><b>Quicker,Easier and more faster access!!
     //     This platform allows students to manage and keep tracks of their academics schedules.</b></p></div>
   )
