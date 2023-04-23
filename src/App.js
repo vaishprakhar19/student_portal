@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import React, { useState } from "react";
 import About from './About';
 import Home from './Home';
+import Holidays from './components/Holidays';
 import Contacts from './components/Contacts';
 import MessMenu from './components/MessMenu';
 import MessTimeB from './components/MessTimeB';
@@ -50,6 +51,7 @@ function App() {
           <Route path='/login' element={<Login setCourse={setCourse} setYear={setYear} setStream={setStream}/>}/>
           <Route path='/home' element={<Home course={course} year={year} stream={stream}/>} />
           <Route path='/about' element={<About />} />
+          <Route path='/holidays' element={<Holidays />} />
           <Route path='/sylMCA1' element={<SylMCA1 />} />
           <Route path='/sylMCA2' element={<SylMCA2 />} />
           <Route path='/sylBTech1CSE' element={<SylBTech1CSE />} />

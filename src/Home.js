@@ -38,8 +38,8 @@ export default function Home(props) {
             <Link class="btn btn-secondary" to={'/messtime' + props.course + props.year + props.stream} role="button">View details &raquo;</Link>
           </div>
           <div class="col-md-4">
-            <h2>Heading</h2>
-            <Link class="btn btn-secondary" to="/home" role="button">View details &raquo;</Link>
+            <h2>Holidays</h2>
+            <Link class="btn btn-secondary" to="/holidays" role="button">View details &raquo;</Link>
           </div>
           <div class="col-md-4">
             <h2>Heading</h2>
