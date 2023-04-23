@@ -41,7 +41,7 @@ function App() {
   const [course, setCourse] = useState('');
   const [year, setYear] = useState('');
   const [stream, setStream] = useState('');
-  const [login, setLogin] = useState('');
+  const [login, setLogin] = useState(false);
   
   return (
     <>

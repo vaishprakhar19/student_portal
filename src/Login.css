@@ -61,13 +61,44 @@ p {
   width: min(65vw,30em);
   margin: auto;
   border-radius:20px;
+  transition: 0.2s;
+  transform:scale(0);
 }
-.textin, #login-form select{
-margin:10px auto;
+.textin{
+margin:20px auto 0px auto;
+width:100%;
+background-color: rgba(0, 0, 0, 0);
+border:none;
+border-radius: 0px;
+padding-left: 10px;
+border-bottom: 2px solid black;
 }
+.textin:focus{
+  color:black;
+background-color: #00000000;
+border:none;
+border-bottom: 2px solid black;
+outline:none;
+}
+.textin::placeholder{
+  color:black;
+}
+
 .form-check{
-  margin:10px 0px;
+  margin:20px 0px;
 }
-#login-form .Link {
-  margin:0px auto;
+#emailHelp{
+  margin-left: 10px;
+}
+.select{width:100%;
+  background-color: #00000000;
+  border: none;
+  border-bottom: 2px solid black;
+  margin:20px auto 2px auto;
+  padding-left: 10px;
+}
+.select:focus{
+  outline:none;
+}
+option{background-color: aqua;
 }
