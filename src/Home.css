@@ -27,6 +27,7 @@
     flex-direction: column;
     margin: 50px auto;
     width:max(20vw,250px);
+    height:265px;
 }
 .col-md-4 .btn{
 width:96%;
