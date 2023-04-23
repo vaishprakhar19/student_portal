@@ -59,6 +59,15 @@ p {
   background-color: blueviolet;
   padding: 30px;
   width: min(65vw,30em);
-  margin: 25vh auto;
+  margin: auto;
+  border-radius:20px;
 }
-
+.textin, #login-form select{
+margin:10px auto;
+}
+.form-check{
+  margin:10px 0px;
+}
+#login-form .Link {
+  margin:0px auto;
+}
