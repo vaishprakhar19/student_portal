@@ -30,12 +30,12 @@ export default function Home(props) {
           <div class="col-md-4">
             <h2>Mess Menu</h2>
             {/* <FontAwesomeIcon icon="fa-duotone fa-books" /> */}
-            <Link class="btn btn-secondary" to={'/messmenu' + props.course + props.year + props.stream} role="button">View details &raquo;</Link>
+            <Link class="btn btn-secondary" to='/messmenu' role="button">View details &raquo;</Link>
           </div>
           <div class="col-md-4">
             <h2>Mess Timing</h2>
             {/* <FontAwesomeIcon icon="fa-duotone fa-books" /> */}
-            <Link class="btn btn-secondary" to={'/messtime' + props.course + props.year + props.stream} role="button">View details &raquo;</Link>
+            <Link class="btn btn-secondary" to='/messtime' role="button">View details &raquo;</Link>
           </div>
           <div class="col-md-4">
             <h2>Holidays</h2>
