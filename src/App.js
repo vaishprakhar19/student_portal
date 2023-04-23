@@ -7,8 +7,7 @@ import Home from './Home';
 import Holidays from './components/Holidays';
 import Contacts from './components/Contacts';
 import MessMenu from './components/MessMenu';
-import MessTimeB from './components/MessTimeB';
-import MessTimeG from './components/MessTimeG';
+import MessTime from './components/MessTime';
 import TTBTech1CSE from './components/TTBTech1CSE';
 import TTBTech2CSE from './components/TTBTech2CSE';
 import TTBTech3CSE from './components/TTBTech3CSE';
@@ -72,8 +71,7 @@ function App() {
           <Route path='/ttBTech3ECE' element={<TTBTech3ECE />} />
           <Route path='/ttBTech4CSE' element={<TTBTech4CSE />} />
           <Route path='/ttBTech4ECE' element={<TTBTech4ECE />} />
-          <Route path='/messtimeG' element={<MessTimeG/>} />
-          <Route path='/messtimeB' element={<MessTimeB/>} />
+          <Route path='/messtime' element={<MessTime/>} />
           <Route path='/messmenu' element={<MessMenu/>} />
           <Route path='/contacts' element={<Contacts/>} />
         </Routes>
