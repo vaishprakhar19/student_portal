@@ -23,7 +23,7 @@ function Login(props) {
   const handleLogin = (event) => {
     props.setLogin(true);
   }
-  
+  if(coursetemp==='MCA')props.setStream('');
 
   return (
     <div className="page">
@@ -52,10 +52,10 @@ function Login(props) {
           <option>Year</option>
           <option>1</option>
           <option>2</option>
-          <option hidden={coursetemp=='MCA'?true:false}>3</option>
-          <option hidden={coursetemp=='MCA'?true:false}>4</option>
+          <option hidden={coursetemp==='MCA'?true:false}>3</option>
+          <option hidden={coursetemp==='MCA'?true:false}>4</option>
         </select>
-        <select hidden={coursetemp=='MCA'?true:false} className="form-control" onChange={handleStream}>
+        <select hidden={coursetemp==='MCA'?true:false} className="form-control" onChange={handleStream}>
           <option>Stream</option>
           <option>CSE</option>
           <option>ECE</option>
