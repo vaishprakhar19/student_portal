@@ -26,10 +26,8 @@ function Login(props) {
   
 
   return (
-    <div>
-      <br />
-      <br />
-      <br />
+    <div className="page">
+      
       <form>
         <div className="form-group">
           <label htmlFor="name">Name</label>
