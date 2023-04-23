@@ -20,37 +20,34 @@ export default function Home(props) {
           <div class="col-md-4">
             <h2>Syllabus</h2>
             <FontAwesomeIcon icon="fa-solid fa-books" />
-            <Link class="btn btn-secondary" to={'/syl' + props.course + props.year + props.stream} role="button">View details &raquo;</Link>
+            <Link class="btn btn-secondary" to={'/syl' + props.course + props.year + props.stream} role="button">View Syllabus &raquo;</Link>
           </div>
           <div class="col-md-4">
             <h2>Time Table</h2>
             {/* <FontAwesomeIcon icon="fa-duotone fa-books" /> */}
-            <Link class="btn btn-secondary" to={'/tt' + props.course + props.year + props.stream} role="button">View details &raquo;</Link>
+            <Link class="btn btn-secondary" to={'/tt' + props.course + props.year + props.stream} role="button">View Time Table &raquo;</Link>
           </div>
           <div class="col-md-4">
             <h2>Mess Menu</h2>
             {/* <FontAwesomeIcon icon="fa-duotone fa-books" /> */}
-            <Link class="btn btn-secondary" to='/messmenu' role="button">View details &raquo;</Link>
+            <Link class="btn btn-secondary" to='/messmenu' role="button">View Mess Menu &raquo;</Link>
           </div>
           <div class="col-md-4">
             <h2>Mess Timing</h2>
             {/* <FontAwesomeIcon icon="fa-duotone fa-books" /> */}
-            <Link class="btn btn-secondary" to='/messtime' role="button">View details &raquo;</Link>
+            <Link class="btn btn-secondary" to='/messtime' role="button">View Mess Timing &raquo;</Link>
           </div>
           <div class="col-md-4">
             <h2>Holidays</h2>
-            <Link class="btn btn-secondary" to="/holidays" role="button">View details &raquo;</Link>
+            <Link class="btn btn-secondary" to="/holidays" role="button">View Holidays &raquo;</Link>
           </div>
           <div class="col-md-4">
-            <h2>Heading</h2>
-            <Link class="btn btn-secondary" to="/home" role="button">View details &raquo;</Link>
+            <h2>Important Contacts</h2>
+            <Link class="btn btn-secondary" to="/contacts" role="button">View Contacts &raquo;</Link>
           </div>
         </div>
-        <hr/>
-
       </div>
-      {/* <Link to='/login'>Login</Link>
-      <Link to={'/syl' + props.course + props.year + props.stream}>Syllabus</Link> */}
+
     </div>
   )
 }
