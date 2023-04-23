@@ -1,3 +1,19 @@
-#navbarsExampleDefault{
+.navbar{
+    padding:10px 20px;
+}
+#navbarcollapse{
     justify-content: flex-end;
+    
+}
+@media screen and (max-width:768px) {
+    #navbarcollapse{
+        margin: 0px 0px 20px 20px;
+    }
+}
+#navbarcollapse li .btn{
+    margin-bottom: -10px;
+}
+.navbar-nav{
+    display:flex;
+    flex-direction: column;
 }

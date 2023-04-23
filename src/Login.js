@@ -26,6 +26,10 @@ function Login(props) {
       <br />
       <form>
         <div className="form-group">
+          <label htmlFor="name">Email address</label>
+          <input required type="text" className="form-control" id="name" aria-describedby="namelHelp" placeholder="Enter Name" />
+        </div>
+        <div className="form-group">
           <label htmlFor="email">Email address</label>
           <input required type="email" className="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email" />
           <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
