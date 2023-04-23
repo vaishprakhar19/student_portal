@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from "react-router-dom";
 import './Login.css';
-
+// style={popup?{backdropFilter:'blur(5px)'}:{backdropFilter:'blur(0px)'}}
 
 function Login(props) {
 
@@ -33,12 +33,11 @@ function Login(props) {
   }
 
   if (coursetemp === 'MCA') props.setStream('');
-
   return (
     <div className="page">
       <button class="btn btn-primary" onClick={handlePopup}>LOGIN</button>
 
-      <form id="login-form" style={popup ? { transform: 'scale(1)' } : { transform: 'scale(0)' }}>
+      <form autocomplete="off" id="login-form" style={popup ? { transform: 'scale(1)' } : { transform: 'scale(0)' }}>
         <h1>Student Login</h1>
         <div className="form-group">
           <input required hidden={!reg} type="text" className=" textin" id="name" aria-describedby="namelHelp" placeholder="Enter Name" onChange={handleName} />
