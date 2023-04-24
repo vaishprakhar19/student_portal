@@ -28,7 +28,9 @@
 #login-form {
   position:absolute;
   top:20vh;
-  left:22.5vw;
+  left:0px;
+  right:0px;
+  margin:auto;
   background-color: rgb(242, 151, 193);
   padding: 30px;
   width: min(65vw,30em);
