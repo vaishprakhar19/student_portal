@@ -12,15 +12,15 @@ export default function Home(props) {
 
   let link = '';
   if (props.course + props.year + props.stream === 'BTech1CSE') { link = 'https://uktech.ac.in/newsletter/Syllabus/New-Syllabus-2022/B-Tech/BTECH_SYLLABUS.pdf'; }
-  else if (props.course + props.year + props.stream === 'BTech1ECE') { link = ''; }
+  else if (props.course + props.year + props.stream === 'BTech1ECE') { link = 'https://uktech.ac.in/newsletter/Syllabus/New-Syllabus-2022/B-Tech/BTECH_SYLLABUS.pdf'; }
   else if (props.course + props.year + props.stream === 'BTech2CSE') { link = 'https://uktech.ac.in/site/writereaddata/siteContent/202301231218141006B-Tech-II-Year-CSE-Syllabus-2019-20.pdf'; }
-  else if (props.course + props.year + props.stream === 'BTech2ECE') { link = ''; }
-  else if (props.course + props.year + props.stream === 'BTech3CSE') { link = ''; }
-  else if (props.course + props.year + props.stream === 'BTech3ECE') { link = ''; }
-  else if (props.course + props.year + props.stream === 'BTech4CSE') { link = ''; }
-  else if (props.course + props.year + props.stream === 'BTech4ECE') { link = ''; }
-  else if (props.course + props.year + props.stream === 'MCA1') { link = ''; }
-  else if (props.course + props.year + props.stream === 'MCA2') { link = ''; }
+  else if (props.course + props.year + props.stream === 'BTech2ECE') { link = 'https://uktech.ac.in/site/writereaddata/siteContent/202301231217327552B-Tech-II-Year-ECE-Syllabus-2019-20.pdf'; }
+  else if (props.course + props.year + props.stream === 'BTech3CSE') { link = 'https://uktech.ac.in/site/writereaddata/siteContent/202301241823077911CSE2020.pdf'; }
+  else if (props.course + props.year + props.stream === 'BTech3ECE') { link = 'https://uktech.ac.in/site/writereaddata/siteContent/202301241823581993EC2020.pdf'; }
+  else if (props.course + props.year + props.stream === 'BTech4CSE') { link = 'https://uktech.ac.in/site/writereaddata/siteContent/202301241823077911CSE2020.pdf'; }
+  else if (props.course + props.year + props.stream === 'BTech4ECE') { link = 'https://uktech.ac.in/site/writereaddata/siteContent/202301241823581993EC2020.pdf'; }
+  else if (props.course + props.year + props.stream === 'MCA1') { link = 'https://uktech.ac.in/newsletter/Syllabus/New-Syllabus-2022/MCA/MCA-SYLLABUS.pdf'; }
+  else if (props.course + props.year + props.stream === 'MCA2') { link = 'https://uktech.ac.in/newsletter/Syllabus/New-Syllabus-2022/MCA/MCA-SYLLABUS.pdf'; }
 
   return (
     <div className="page" id="home">
