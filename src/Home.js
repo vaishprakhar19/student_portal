@@ -1,14 +1,26 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
 import './Home.css';
 import { GiBookshelf } from 'react-icons/gi';
 import { MdOutlineFoodBank } from 'react-icons/md';
-import { BiTimer} from 'react-icons/bi';
-import { VscTable} from 'react-icons/vsc';
+import { BiTimer } from 'react-icons/bi';
+import { VscTable } from 'react-icons/vsc';
 import { MdOutlineFestival } from 'react-icons/md';
 import { MdContactPhone } from 'react-icons/md';
 
 export default function Home(props) {
+
+  // const [link,setLink]=useState('');
+  let link = '';
+  if (props.course + props.year + props.stream === 'BTech1CSE') { link = 'https://uktech.ac.in/newsletter/Syllabus/New-Syllabus-2022/B-Tech/BTECH_SYLLABUS.pdf'; }
+  else if (props.course + props.year + props.stream === 'BTech1ECE') { link = ''; }
+  else if (props.course + props.year + props.stream === 'BTech2CSE') { link = ''; }
+  else if (props.course + props.year + props.stream === 'BTech2ECE') { link = ''; }
+  else if (props.course + props.year + props.stream === 'BTech3CSE') { link = ''; }
+  else if (props.course + props.year + props.stream === 'BTech3ECE') { link = ''; }
+  else if (props.course + props.year + props.stream === 'BTech4CSE') { link = ''; }
+  else if (props.course + props.year + props.stream === 'BTech4ECE') { link = ''; }
+
   return (
     <div className="page" id="home">
       <div class="jumbotron">
@@ -23,7 +35,7 @@ export default function Home(props) {
           <div class="col-md-4">
             <h2 className="sub-heading">Syllabus</h2>
             <GiBookshelf className='icon' />
-            <Link class="btn btn-secondary" to={'/syl' + props.course + props.year + props.stream} role="button">View Syllabus &raquo;</Link>
+            <Link class="btn btn-secondary" to={link} role="button">View Syllabus &raquo;</Link>
           </div>
           <div class="col-md-4">
             <h2 className="sub-heading">Time Table</h2>
