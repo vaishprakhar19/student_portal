@@ -82,7 +82,7 @@ function Login(props) {
           <input type="checkbox" className="form-check-input" id="checkbox" />
           <label className="form-check-label" htmlFor="checkbox">Remember me</label>
         </div>
-        <p>{reg ? "Don't have an account? " : 'Have an account? '}<Link onClick={handleReg}>{reg ? "Login Here." : "Register Now."}</Link></p>
+        <p>{reg ? 'Have an account? ':"Don't have an account? "}<Link onClick={handleReg}>{reg ? "Login Here." : "Register Now."}</Link></p>
         {/* ???????????? */}
         <Link to='/home'><button type="submit" className="btn btn-primary" onClick={handleLogin}>Submit</button></Link>
       </form>
