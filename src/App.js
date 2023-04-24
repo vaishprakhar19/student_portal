@@ -44,8 +44,7 @@ function App() {
   const [login, setLogin] = useState(false);
   
   return (
-    <>
-      <Router>
+    <Router>
         <Navbar login={login} setLogin={setLogin}/>
         <Routes>
           <Route path='/login' element={<Login setCourse={setCourse} setYear={setYear} setStream={setStream} setName={setName} setLogin={setLogin}/>}/>
@@ -77,7 +76,6 @@ function App() {
           <Route path='/contacts' element={<Contacts/>} />
         </Routes>
       </Router>
-    </>
   );
 }
 
