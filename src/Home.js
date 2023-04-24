@@ -10,16 +10,17 @@ import { MdContactPhone } from 'react-icons/md';
 
 export default function Home(props) {
 
-  // const [link,setLink]=useState('');
   let link = '';
   if (props.course + props.year + props.stream === 'BTech1CSE') { link = 'https://uktech.ac.in/newsletter/Syllabus/New-Syllabus-2022/B-Tech/BTECH_SYLLABUS.pdf'; }
   else if (props.course + props.year + props.stream === 'BTech1ECE') { link = ''; }
-  else if (props.course + props.year + props.stream === 'BTech2CSE') { link = ''; }
+  else if (props.course + props.year + props.stream === 'BTech2CSE') { link = 'https://uktech.ac.in/site/writereaddata/siteContent/202301231218141006B-Tech-II-Year-CSE-Syllabus-2019-20.pdf'; }
   else if (props.course + props.year + props.stream === 'BTech2ECE') { link = ''; }
   else if (props.course + props.year + props.stream === 'BTech3CSE') { link = ''; }
   else if (props.course + props.year + props.stream === 'BTech3ECE') { link = ''; }
   else if (props.course + props.year + props.stream === 'BTech4CSE') { link = ''; }
   else if (props.course + props.year + props.stream === 'BTech4ECE') { link = ''; }
+  else if (props.course + props.year + props.stream === 'MCA1') { link = ''; }
+  else if (props.course + props.year + props.stream === 'MCA2') { link = ''; }
 
   return (
     <div className="page" id="home">
