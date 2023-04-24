@@ -36,7 +36,6 @@ function Login(props) {
   if (coursetemp === 'MCA') props.setStream('');
   return (
     <div className="page">
-    
       <div id="introduction">
         <div className="intro-text"> <h1 className="display-2">Hello Bro</h1>
           <p>lorem50kflhd jjhsdkjfhkjsdhj jkhdfjkhksjdhf khdfjkhskjhdf kjdhfkjhskjdfh ksjdhfkjhdkjf skhdjkfhkjshdfkjh kjdhfkjhsdkjfhkjshdf kjdhfkjshdkfjhs kjhdfkjhskjdfh kjhdfkjhksjhdf kjdhfkjshdkjfh 000</p>
@@ -44,7 +43,7 @@ function Login(props) {
         </div>
         <img id="logo" src="https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png" />
       </div>
-
+<div className="blur" hidden={!popup}></div>
 
 
 
