@@ -36,7 +36,7 @@ export default function Home(props) {
           <div class="col-md-4">
             <h2 className="sub-heading">Syllabus</h2>
             <GiBookshelf className='icon' />
-            <Link class="btn btn-secondary" to={link} role="button">View Syllabus &raquo;</Link>
+            <Link class="btn btn-secondary" to={link} target="_blank" role="button">View Syllabus &raquo;</Link>
           </div>
           <div class="col-md-4">
             <h2 className="sub-heading">Time Table</h2>

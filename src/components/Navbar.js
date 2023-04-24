@@ -9,7 +9,6 @@ export default function Navbar(props) {
   return (
     <>
     <div>
-      
       <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
       <div><img src=''/>
         <Link className="navbar-brand" to="/home">Student Portal</Link></div>
@@ -29,7 +28,6 @@ export default function Navbar(props) {
           <Link class="btn btn-primary btn-sm" to="/login" role="button" onClick={handleLogin}>Log {props.login?'Out':'In'}</Link>
           </li>
         </ul>
-        
       </div>
     </nav>
 
