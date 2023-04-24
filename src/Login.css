@@ -1,0 +1,90 @@
+@media (max-width:768px){
+  #introduction p{
+    width: 70vw !important;;
+  }
+  #logo{
+    width:70vw !important;
+  }
+}
+#logo{
+  width:35vw;
+  margin:0px auto 40px auto;
+}
+
+#introduction{
+  padding:50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap-reverse;
+}
+#introduction p{
+  font-size:max(1.4vw,18px);
+  width: max(50vw,400px);
+}
+
+.blur{
+  width:100vw;
+  height:100vh;
+  backdrop-filter: blur(10px);
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  z-index: 120;
+  background-color: rgba(0, 0, 0, 0.623);
+}
+
+#login-form {
+  position:absolute;
+  top:20vh;
+  left:0px;
+  right:0px;
+  margin:auto;
+  background-color: rgb(242, 151, 193);
+  padding: 30px;
+  width: min(65vw,30em);
+  border-radius:20px;
+  transition: 0.2s;
+  transform:scale(0);
+  z-index:150;
+}
+.textin{
+margin:20px auto 0px auto;
+width:100%;
+background-color: rgba(0, 0, 0, 0);
+border:none;
+border-radius: 0px;
+padding-left: 10px;
+border-bottom: 2px solid black;
+}
+.textin:focus{
+  color:black;
+background-color: #00000000;
+border:none;
+border-bottom: 2px solid black;
+outline:none;
+}
+.textin::placeholder{
+  color:black;
+}
+
+.form-check{
+  margin:20px 0px;
+}
+#emailHelp{
+  margin-left: 10px;
+}
+.select{width:100%;
+  background-color: #00000000;
+  border: none;
+  border-bottom: 2px solid black;
+  margin:20px auto 2px auto;
+  padding-left: 10px;
+}
+.select:focus{
+  outline:none;
+}
+option{background-color: aqua;
+}

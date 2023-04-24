@@ -1,0 +1,92 @@
+import React, { useState } from 'react'
+import { Link } from "react-router-dom";
+import './Login.css';
+
+// style={popup?{backdropFilter:'blur(5px)'}:{backdropFilter:'blur(0px)'}}
+
+function Login(props) {
+
+  const [coursetemp, setcoursetemp] = useState('');
+  const [popup, setPopup] = useState(false);
+  const [reg, setReg] = useState(false);
+
+  const handleCourse = (event) => {
+    setcoursetemp(event.target.value);
+    props.setCourse(event.target.value);
+  }
+  const handleYear = (event) => {
+    props.setYear(event.target.value);
+  }
+  const handleStream = (event) => {
+    props.setStream(event.target.value);
+  }
+  const handleName = (event) => {
+    props.setName(event.target.value);
+  }
+  const handleLogin = () => {
+    props.setLogin(true);
+  }
+  const handlePopup = () => {
+    popup ? setPopup(false) : setPopup(true);
+  }
+  const handleReg = () => {
+    reg ? setReg(false) : setReg(true);
+  }
+
+  if (coursetemp === 'MCA') props.setStream('');
+  return (
+    <div className="page">
+      <div id="introduction">
+        <div className="intro-text"> <h1 className="display-2">Hello Bro</h1>
+          <p>lorem50kflhd jjhsdkjfhkjsdhj jkhdfjkhksjdhf khdfjkhskjhdf kjdhfkjhskjdfh ksjdhfkjhdkjf skhdjkfhkjshdfkjh kjdhfkjhsdkjfhkjshdf kjdhfkjshdkfjhs kjhdfkjhskjdfh kjhdfkjhksjhdf kjdhfkjshdkjfh 000</p>
+          <button class="btn btn-primary" onClick={handlePopup}>LOGIN</button>
+        </div>
+        <img id="logo" src="https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png" />
+      </div>
+<div className="blur" hidden={!popup}></div>
+
+
+
+
+      <form autocomplete="off" id="login-form" style={popup ? { transform: 'scale(1)' } : { transform: 'scale(0)' }}>
+        <h1>Student Login</h1>
+        <div className="form-group">
+          <input required hidden={!reg} type="text" className=" textin" id="name" aria-describedby="namelHelp" placeholder="Enter Name" onChange={handleName} />
+        </div>
+        <div className="form-group">
+          <input required type="email" className="textin" id="email" aria-describedby="emailHelp" placeholder="Enter Email" />
+          <small hidden={!reg} id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div className="form-group">
+          <input required type="password" className="textin" id="password" placeholder="Password" />
+        </div>
+        <select className="select" hidden={!reg} onChange={handleCourse}>
+          <option>Course</option>
+          <option>MCA</option>
+          <option>BTech</option>
+        </select>
+        <select className="select" hidden={!reg} onChange={handleYear}>
+          <option>Year</option>
+          <option>1</option>
+          <option>2</option>
+          <option hidden={coursetemp === 'MCA' ? true : false}>3</option>
+          <option hidden={coursetemp === 'MCA' ? true : false}>4</option>
+        </select>
+        <select hidden={coursetemp === 'MCA' ? true : false || !reg} className="select" onChange={handleStream}>
+          <option>Stream</option>
+          <option>CSE</option>
+          <option>ECE</option>
+        </select>
+        <div hidden={reg} className="form-check">
+          <input type="checkbox" className="form-check-input" id="checkbox" />
+          <label className="form-check-label" htmlFor="checkbox">Remember me</label>
+        </div>
+        <p>{reg ? 'Have an account? ':"Don't have an account? "}<Link onClick={handleReg}>{reg ? "Login Here." : "Register Now."}</Link></p>
+        {/* ???????????? */}
+        <Link to='/home'><button type="submit" className="btn btn-primary" onClick={handleLogin}>Submit</button></Link>
+      </form>
+    </div>
+  )
+}
+
+export { Login };
