@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function TTMCA2() {
   return (
-    <div className="page" id="home">
+    <div className="page">
 <h1>MCA 4th Sem</h1>
 <table>
     <tr>
