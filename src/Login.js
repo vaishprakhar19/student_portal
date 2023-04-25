@@ -46,7 +46,7 @@ function Login(props) {
       <div id="introduction">
         <div className="intro-text" > <h1 className="display-2">Hello Bro</h1>
           <p>lorem50kflhd jjhsdkjfhkjsdhj jkhdfjkhksjdhf khdfjkhskjhdf kjdhfkjhskjdfh ksjdhfkjhdkjf skhdjkfhkjshdfkjh kjdhfkjhsdkjfhkjshdf kjdhfkjshdkfjhs kjhdfkjhskjdfh kjhdfkjhksjhdf kjdhfkjshdkjfh oooooooooooooooooooooooooooooooooooooooooo</p>
-          <button class="btn btn-primary" onClick={handlePopup}>LOGIN</button>
+          <button class="button" onClick={handlePopup}>LOGIN</button>
         </div>
         <img id="logo" src="https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png" />
       </div>
@@ -101,7 +101,7 @@ function Login(props) {
         </div>
         <p>{reg ? 'Have an account? ' : "Don't have an account? "}<Link onClick={handleReg}>{reg ? "Login Here." : "Register Now."}</Link></p>
         {/* ???????????? */}
-        <Link to='/home'><button type="submit" className="btn btn-primary" onClick={handleLogin}>Submit</button></Link>
+        <Link to='/home'><button className='button' onClick={handleLogin}>Submit</button></Link>
       </form>
     </div>
   )
