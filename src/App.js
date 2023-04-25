@@ -1,6 +1,6 @@
 import './App.css';
 import Navbar from './components/Navbar';
-import React, { useState } from "react";
+import React, { useState} from "react";
 import {About} from './About';
 import Home from './Home';
 import Holidays from './components/Holidays';
@@ -17,14 +17,14 @@ import TTBTech3ECE from './components/TTBTech3ECE';
 import TTBTech4ECE from './components/TTBTech4ECE';
 import TTMCA1 from './components/TTMCA1';
 import TTMCA2 from './components/TTMCA2';
-import {Login,course,year,stream} from './Login';
-
+import {Login} from './Login';
 import {
   BrowserRouter as Router,
   Routes,
   Route,
   Link
 } from "react-router-dom";
+import TodoList from './components/TodoList';
 
 function App() {
   const [name, setName] = useState('');
@@ -55,6 +55,7 @@ function App() {
           <Route path='/messtime' element={<MessTime/>} />
           <Route path='/messmenu' element={<MessMenu/>} />
           <Route path='/contacts' element={<Contacts/>} />
+          <Route path='/todolist' element={<TodoList/>} />
         </Routes>
       </Router>
   );

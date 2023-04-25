@@ -63,6 +63,11 @@ export default function Home(props) {
             <MdContactPhone className='icon' />
             <Link class="btn btn-secondary" to="/contacts" role="button">View Contacts &raquo;</Link>
           </div>
+          <div class="col-md-4">
+            <h2 className="sub-heading">Todo List</h2>
+            <MdContactPhone className='icon' />
+            <Link class="btn btn-secondary" to="/todolist" role="button">Todo List &raquo;</Link>
+          </div>
         </div>
       </div>
 
