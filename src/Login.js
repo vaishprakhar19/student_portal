@@ -5,7 +5,13 @@ import './Login.css';
 
 function Login(props) {
 
+<<<<<<< Updated upstream
   const [coursetemp, setcoursetemp] = useState();
+=======
+  const [coursetemp, setcoursetemp] = useState('');
+  const [popup, setPopup] = useState(false);
+  const [reg, setReg] = useState(false);
+>>>>>>> Stashed changes
 
   const handleCourse = (event) => {
     setcoursetemp(event.target.value);
@@ -64,6 +70,22 @@ function Login(props) {
           <input type="checkbox" className="form-check-input" id="checkbox" />
           <label className="form-check-label" htmlFor="checkbox">Remember me</label>
         </div>
+<<<<<<< Updated upstream
+=======
+        <div class="form-check radio" hidden={!reg} >
+          <input class="form-check-input" type="radio" name="exampleRadios" id="radio1" value="Hosteller" onChange={handleHosteller}/>
+          <label class="form-check-label" htmlFor="exampleRadios1">
+            Hosteller
+          </label>
+        </div>
+        <div class="form-check radio" hidden={!reg} >
+          <input class="form-check-input" type="radio" name="exampleRadios" id="radio2" onChange={handleDaysch} value="DaySch"/>
+          <label class="form-check-label" htmlFor="exampleRadios2">
+            Day Scholar
+          </label>
+        </div>
+        <p>{reg ? 'Already have an account? ' : "Don't have an account? "}<Link onClick={handleReg}>{reg ? "Login Here." : "Register Now."}</Link></p>
+>>>>>>> Stashed changes
         {/* ???????????? */}
        <Link to='/home'><button type="submit" className="btn btn-primary" onClick={handleLogin}>Submit</button></Link>
       </form>

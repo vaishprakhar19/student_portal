@@ -7,12 +7,28 @@
     justify-content: flex-end;
 }
 @media screen and (max-width:768px) {
+<<<<<<< Updated upstream
     #navbarcollapse{
         margin: 0px 0px 20px 20px;
+=======
+    #navbarcollapse {
+       padding: 0px 0px 20px 20px;
+>>>>>>> Stashed changes
     }
     .nav-link{
         margin-left: 5px;
     }
+<<<<<<< Updated upstream
+=======
+
+    #navbarcollapse li .btn {
+        margin-left: -5px;
+    }
+    
+    #navbarcollapse li .btn {
+        margin-left: -5px;
+    }
+>>>>>>> Stashed changes
 }
 #navbarcollapse li .btn{
     margin-bottom: -10px;
