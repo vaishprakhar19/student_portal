@@ -31,15 +31,11 @@ const [todos, setTodos] = useState(
   const clearAllFinished = () => {
     setTodos(todos.filter((todo) => todo.isDone === false));
   };
-
+  
   return ( <>
-  <Container className="container">
-      <Typography variant="h4" style={{ color: "#8be9fd" }}>
-        2Do or not 2Do?...
-        <br />
-        🧐👇
-      </Typography>
-      <br />
+  <div className="page">
+    <h1 className="sub-heading heading-space">ToDo List</h1>
+    <Form addTodo={addTodo} clearAllFinished={clearAllFinished} />
       <div className="todos-container">
         {todos.map((todo, index) => (
           <Todo
@@ -51,11 +47,7 @@ const [todos, setTodos] = useState(
           />
         ))}
       </div>
-
-      <br />
-
-      <Form addTodo={addTodo} clearAllFinished={clearAllFinished} />
-    </Container>
+    </div>
   </>
   );
 

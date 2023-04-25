@@ -5,7 +5,7 @@ import { Done } from "@mui/icons-material";
 import { Cancel } from "@mui/icons-material";
 const Todo = ({ todo, handleMark, handleDelete, index }) => {
   return (
-    <Container
+    <div className="todo"
       style={{
         display: "flex",
         justifyContent: "space-between",
@@ -41,7 +41,7 @@ const Todo = ({ todo, handleMark, handleDelete, index }) => {
       >
         <Delete></Delete>
       </IconButton>
-    </Container>
+    </div>
   );
 };
 

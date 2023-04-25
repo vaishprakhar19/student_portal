@@ -21,11 +21,6 @@ const Form = ({ addTodo, clearAllFinished }) => {
         <Input
           autoFocus
           inputProps={{ maxLength: 40 }}
-          style={{
-            background: "#f8f8f2	",
-            color: "	#44475a",
-            padding: "2px",
-          }}
           required
           variant="outlined"
           value={formValue.content}
