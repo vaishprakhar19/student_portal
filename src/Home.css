@@ -112,6 +112,19 @@
   }
 
   .home-img{
+    width:96%;
+    height:96%;
+    border-radius: 50%;
+    overflow: hidden;
+    position:relative;
+    z-index: 6;
+  }
+  .home-img img{
     width:100%;
-    z-index: 2;
+    position: absolute;
+    left: 0;
+    right:0;
+    top:0;
+    z-index: 5;
+    margin:0px auto;
   }

@@ -42,6 +42,7 @@ export default function Home(props) {
           <div class="card wallet col-md-4">
             <div class="overlay"></div>
             <div class="circle">
+            <div class="home-img"><img src='https://github.com/vaishprakhar19/student_portal/blob/main/resources/syllabus.jpg?raw=true'/></div>
               <defs></defs>
               <g transform="translate(23.000000, 29.500000)" fill-rule="evenodd" fill="none" stroke-width="1" stroke="none" id="icon">
                 <rect rx="4.70247832" height="21.8788565" width="9.40495664" y="26.0333433" x="67.8357511" fill="#AC8BE9" id="Rectangle-3"></rect>
@@ -55,12 +56,13 @@ export default function Home(props) {
                 </ellipse>
               </g>
             </div>
-            <p>Wallet</p>
+            <p>Syllabus</p>
           </div>
           
           <div class="card wallet col-md-4">
             <div class="overlay"></div>
             <div class="circle">
+            <div class="home-img"><img src='https://github.com/vaishprakhar19/student_portal/blob/main/resources/timetable.jpg?raw=true'/></div>
               <defs></defs>
               <g transform="translate(23.000000, 29.500000)" fill-rule="evenodd" fill="none" stroke-width="1" stroke="none" id="icon">
                 <rect rx="4.70247832" height="21.8788565" width="9.40495664" y="26.0333433" x="67.8357511" fill="#AC8BE9" id="Rectangle-3"></rect>
@@ -74,11 +76,12 @@ export default function Home(props) {
                 </ellipse>
               </g>
             </div>
-            <p>Wallet</p>
+            <p>Time Table</p>
           </div>
           <div class="card wallet col-md-4">
             <div class="overlay"></div>
             <div class="circle">
+            <div class="home-img"><img src='https://github.com/vaishprakhar19/student_portal/blob/main/resources/messtime.jpg?raw=true'/></div>
               <defs></defs>
               <g transform="translate(23.000000, 29.500000)" fill-rule="evenodd" fill="none" stroke-width="1" stroke="none" id="icon">
                 <rect rx="4.70247832" height="21.8788565" width="9.40495664" y="26.0333433" x="67.8357511" fill="#AC8BE9" id="Rectangle-3"></rect>
@@ -92,11 +95,12 @@ export default function Home(props) {
                 </ellipse>
               </g>
             </div>
-            <p>Wallet</p>
+            <p>Mess Schedule</p>
           </div>
           <div class="card wallet col-md-4">
             <div class="overlay"></div>
             <div class="circle">
+            <div class="home-img"><img src='https://github.com/vaishprakhar19/student_portal/blob/main/resources/mess.jpg?raw=true'/></div>
               <defs></defs>
               <g transform="translate(23.000000, 29.500000)" fill-rule="evenodd" fill="none" stroke-width="1" stroke="none" id="icon">
                 <rect rx="4.70247832" height="21.8788565" width="9.40495664" y="26.0333433" x="67.8357511" fill="#AC8BE9" id="Rectangle-3"></rect>
@@ -110,11 +114,12 @@ export default function Home(props) {
                 </ellipse>
               </g>
             </div>
-            <p>Wallet</p>
+            <p>Mess Menu</p>
           </div>
           <div class="card wallet col-md-4">
             <div class="overlay"></div>
             <div class="circle">
+            <div class="home-img"><img src='https://github.com/vaishprakhar19/student_portal/blob/main/resources/holiday.jpg?raw=true'/></div>
               <defs></defs>
               <g transform="translate(23.000000, 29.500000)" fill-rule="evenodd" fill="none" stroke-width="1" stroke="none" id="icon">
                 <rect rx="4.70247832" height="21.8788565" width="9.40495664" y="26.0333433" x="67.8357511" fill="#AC8BE9" id="Rectangle-3"></rect>
@@ -128,12 +133,12 @@ export default function Home(props) {
                 </ellipse>
               </g>
             </div>
-            <p>Wallet</p>
+            <p>Holiday Calender</p>
           </div>
           <div class="card wallet col-md-4">
             <div class="overlay"></div>
             <div class="circle">
-              <img class="home-img" src='https://github.com/vaishprakhar19/student_portal/blob/main/resources/syllabus.jpg?raw=true'/>
+              <div class="home-img"><img src='https://github.com/vaishprakhar19/student_portal/blob/main/resources/todo.jpg?raw=true'/></div>
               <defs></defs>
               <g transform="translate(23.000000, 29.500000)" fill-rule="evenodd" fill="none" stroke-width="1" stroke="none" id="icon">
                 <rect rx="4.70247832" height="21.8788565" width="9.40495664" y="26.0333433" x="67.8357511" fill="#AC8BE9" id="Rectangle-3"></rect>
@@ -147,11 +152,12 @@ export default function Home(props) {
                 </ellipse>
               </g>
             </div>
-            <p>Wallet</p>
+            <p>ToDo List</p>
           </div>
           <div class="card wallet col-md-4">
             <div class="overlay"></div>
             <div class="circle">
+            <div class="home-img"><img src='https://github.com/vaishprakhar19/student_portal/blob/main/resources/contact.jpg?raw=true'/></div>
               <defs></defs>
               <g transform="translate(23.000000, 29.500000)" fill-rule="evenodd" fill="none" stroke-width="1" stroke="none" id="icon">
                 <rect rx="4.70247832" height="21.8788565" width="9.40495664" y="26.0333433" x="67.8357511" fill="#AC8BE9" id="Rectangle-3"></rect>
@@ -165,7 +171,7 @@ export default function Home(props) {
                 </ellipse>
               </g>
             </div>
-            <p>Wallet</p>
+            <p>Important Contacts</p>
           </div>
 
 
