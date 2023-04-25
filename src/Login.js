@@ -9,6 +9,7 @@ function Login(props) {
   const [coursetemp, setcoursetemp] = useState('');
   const [popup, setPopup] = useState(false);
   const [reg, setReg] = useState(false);
+  const [temp, settemp] = useState(false);
 
   const handleCourse = (event) => {
     setcoursetemp(event.target.value);
@@ -32,10 +33,11 @@ function Login(props) {
   const handleReg = () => {
     reg ? setReg(false) : setReg(true);
   }
-  const handleDaysch = (event) => {
-    if(event.target.value==='Daysch')
+  const handleDaysch = () => {
     props.setDaysch(true);
-    else props.setDaysch(true);
+  }
+  const handleHosteller = () => {
+    props.setDaysch(false);
   }
   
 
@@ -54,7 +56,7 @@ function Login(props) {
 
 
 
-      <form autocomplete="off" id="login-form" style={popup ? { transform: 'scale(1)' } : { transform: 'scale(0)' }}>
+      <form autoComplete="off" id="login-form" style={popup ? { transform: 'scale(1)' } : { transform: 'scale(0)' }}>
         <h1>Student Login</h1>
         <div className="form-group">
           <input required hidden={!reg} type="text" className=" textin" id="name" aria-describedby="namelHelp" placeholder="Enter Name" onChange={handleName} />
@@ -88,14 +90,14 @@ function Login(props) {
           <label className="form-check-label" htmlFor="checkbox">Remember me</label>
         </div>
         <div class="form-check radio">
-          <input class="form-check-input" type="radio" name="exampleRadios" id="radio1" value="Hosteller" onchange={handleDaysch} checked/>
-          <label class="form-check-label" for="exampleRadios1">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="radio1" value="Hosteller" onChange={handleHosteller}/>
+          <label class="form-check-label" htmlFor="exampleRadios1">
             Hosteller
           </label>
         </div>
         <div class="form-check radio">
-          <input class="form-check-input" type="radio" name="exampleRadios" id="radio2" onchange={handleDaysch} value="Day Scholar"/>
-          <label class="form-check-label" for="exampleRadios2">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="radio2" onChange={handleDaysch} value="DaySch"/>
+          <label class="form-check-label" htmlFor="exampleRadios2">
             Day Scholar
           </label>
         </div>

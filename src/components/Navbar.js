@@ -25,7 +25,7 @@ export default function Navbar(props) {
             <Link className="nav-link" to="/about">About</Link>
           </li>
           <li className="nav-item">
-          <Link class="btn btn-primary btn-sm" to="/login" role="button" onClick={handleLogin}>Log {props.login?'Out':'In'}</Link>
+          <Link className="btn btn-primary btn-sm" to="/login" role="button" onClick={handleLogin}>Log {props.login?'Out':'In'}</Link>
           </li>
         </ul>
       </div>
