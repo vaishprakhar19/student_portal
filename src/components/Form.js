@@ -16,7 +16,7 @@ const Form = ({ addTodo, clearAllFinished }) => {
   };
 
   return (
-    <div>
+    <div id="form-container">
       <form onSubmit={handleSubmit}>
         <Input
           autoFocus

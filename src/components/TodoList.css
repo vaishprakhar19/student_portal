@@ -26,6 +26,8 @@
   width:20vw;
   display: inline-block;
 }
-form{
+#form-container{
   display: inline-block;
+  width:100%;
+  margin: auto;
 }
