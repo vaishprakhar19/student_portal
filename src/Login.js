@@ -44,7 +44,7 @@ function Login(props) {
   return (
     <div className="page">
       <div id="introduction">
-        <div className="intro-text"> <h1 className="display-2">Hello Bro</h1>
+        <div className="intro-text" > <h1 className="display-2">Hello Bro</h1>
           <p>lorem50kflhd jjhsdkjfhkjsdhj jkhdfjkhksjdhf khdfjkhskjhdf kjdhfkjhskjdfh ksjdhfkjhdkjf skhdjkfhkjshdfkjh kjdhfkjhsdkjfhkjshdf kjdhfkjshdkfjhs kjhdfkjhskjdfh kjhdfkjhksjhdf kjdhfkjshdkjfh oooooooooooooooooooooooooooooooooooooooooo</p>
           <button class="btn btn-primary" onClick={handlePopup}>LOGIN</button>
         </div>
