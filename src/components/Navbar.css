@@ -11,16 +11,23 @@
 
 @media screen and (max-width:768px) {
     #navbarcollapse {
+<<<<<<< Updated upstream
         margin: 0px 0px 20px 20px;
+=======
+       padding: 0px 0px 20px 20px;
+>>>>>>> Stashed changes
     }
 
     .nav-link {
         margin-left: 5px;
     }
+<<<<<<< Updated upstream
 
     #navbarcollapse li .btn {
         margin-left: -5px;
     }
+=======
+>>>>>>> Stashed changes
 }
 
 #navbarcollapse li .btn {
