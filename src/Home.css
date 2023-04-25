@@ -73,8 +73,8 @@
   }
   
   .circle {
-    width: 131px;
-    height: 131px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     background: #fff;
     border: 2px solid var(--bg-color);
@@ -88,8 +88,8 @@
   
   .circle:after {
     content: "";
-    width: 118px;
-    height: 118px;
+    width: 170px;
+    height: 170px;
     display: block;
     position: absolute;
     background: var(--bg-color);
