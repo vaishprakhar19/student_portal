@@ -38,3 +38,9 @@ a{text-decoration: none;}
     transition: 0.5s;
     margin: 0px 20px 0px 0px;
 }
+#top-logo{
+    width:40px;
+    margin-top: -6px;
+    margin-left: -5px;
+    margin-right: 10px;
+}

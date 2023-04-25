@@ -10,7 +10,7 @@ export default function Navbar(props) {
     <>
     <div>
       <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <div><img src='https://www.birlainstitute.co.in/Pictures/birla-logo.png'/>
+      <div><img id="top-logo" src='https://github.com/vaishprakhar19/student_portal/blob/main/resources/birla-logo.png?raw=true'/>
         <Link className="navbar-brand" to="/home">Student Portal</Link></div>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarcollapse" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
