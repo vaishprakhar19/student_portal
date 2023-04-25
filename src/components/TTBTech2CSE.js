@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function TTBTech2CSE() {
   return (
-    <div className="page">
+    <div>
 <h1>TTBTech2CSE</h1>
 <table class="table table-bordered">
     <tr>
@@ -18,28 +18,28 @@ export default function TTBTech2CSE() {
         <th>9:30 - 10:30</th>
         <td>CO                                 (Dr. Sandesh Tripathi)</td>
         <td>Mathematics III                (Ms.Neema)</td>
-        <td>Automata                 (Mr. Pankaj Nainwal)</td>
-        <td>Dbms                                         (Mr.Nitin)</td>
-        <td>Automata                 (Mr. Pankaj Nainwal)</td>
-        <td>Computer Organisations                                 (Dr. Sandesh Tripathi)</td>
+        <td>AUTOMATA                  (Mr. Pankaj Nainwal)</td>
+        <td>DBMS                                         (Mr.Nitin)</td>
+        <td>AUTOMATA                  (Mr. Pankaj Nainwal)</td>
+        <td>CO                                 (Dr. Sandesh Tripathi)</td>
     </tr>
     <tr>
         <th>10:30 - 11:30</th>
-        <td>Automata                (Mr. Pankaj Nainwal)</td>
-        <td>Dbms                                        (Mr.Nitin)</td>
-        <td>Software Engineering                                         ()</td>
+        <td>AUTOMATA                 (Mr. Pankaj Nainwal)</td>
+        <td>DBMS                                         (Mr.Nitin)</td>
+        <td>SE                                         ()</td>
         <td>Mathematics III                (Dr. Shilpi)</td>
-        <td>Computer Organisation                                 (Dr. Sandesh Tripathi)</td>
-        <td>Dbms                                         (Mr.Nitin)</td>
+        <td>CO                                 (Dr. Sandesh Tripathi)</td>
+        <td>DBMS                                         (Mr.Nitin)</td>
     </tr>
     <tr>
         <th>11:30 - 12:30</th>
-        <td>Software Engineering                                         ()</td>
-        <td>Computer Organisation                                (Dr. Sandesh Tripathi)</td>
-        <td>Dbms                                         (Mr.Nitin)</td>
-        <td>Uhv                                         (Mr.Nitin)</td>
+        <td>SE                                         ()</td>
+        <td>CO                                 (Dr. Sandesh Tripathi)</td>
+        <td>DBMS                                         (Mr.Nitin)</td>
+        <td>UHV                                         (Mr.Nitin)</td>
         <td>Mathematics III                (Dr. Shilpi)</td>
-        <td>Software Engineering                                         ()</td>
+        <td>SE                                         ()</td>
     </tr>
     <tr>
         <th>BREAK</th>
@@ -52,19 +52,19 @@ export default function TTBTech2CSE() {
     </tr>
     <tr>
         <th>2:00 - 3:00</th>
-        <td>Computer Organisation LAB/ Software Engineering LAB                       (Dr. Sandesh Tripathi/)</td>
-        <td>Computer Organisation LAB/ Software Engineering LAB                       (Dr. Sandesh Tripathi/)</td>
+        <td>CO LAB/ SE LAB                       (Dr. Sandesh Tripathi/)</td>
+        <td>CO LAB/ SE LAB                       (Dr. Sandesh Tripathi/)</td>
         <td>Mathematics III                (Ms.Neema)</td>
-        <td>Automata             (Mr. Pankaj Nainwal)</td>
-        <td>Dbms Lab                                      (Mr.Nitin)</td>
+        <td>AUTOMATA              (Mr. Pankaj Nainwal)</td>
+        <td>DBMS Lab                                      (Mr.Nitin)</td>
         <td></td>
     </tr>
     <tr>
         <th>3:00 - 4:00</th>
         <td></td>
         <td></td>
-        <td>Uhv                                        (Mr.Nitin)</td>
-        <td>Software Engineering                                         ()</td>
+        <td>UHV                                         (Mr.Nitin)</td>
+        <td>SE                                         ()</td>
     </tr>
 </table>
     </div>

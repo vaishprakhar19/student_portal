@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function TTBTech2ECE() {
   return (
-    <div className="page" id="home">
+    <div>
 <h1>TTBTech2ECE</h1>
 <table class="table table-bordered">
   <thead>

@@ -9,6 +9,7 @@ function Login(props) {
   const [coursetemp, setcoursetemp] = useState('');
   const [popup, setPopup] = useState(false);
   const [reg, setReg] = useState(false);
+  const [temp, settemp] = useState(false);
 
   const handleCourse = (event) => {
     setcoursetemp(event.target.value);
