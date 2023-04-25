@@ -14,7 +14,7 @@
     margin:5vw 0px;
 }
 .row{
-    justify-content:space-around;
+    justify-content:space-between;
 }
 .col-md-4{
     background-color: red;
