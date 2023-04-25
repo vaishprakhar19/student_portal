@@ -2,19 +2,19 @@ import React from 'react'
 
 export default function TTBTech1ECE() {
   return (
-    <div>
-      <h1>TTBTech1ECE</h1>
+    <div className="page">
+      <h1>ECE 2nd Sem</h1>
           B.TECH II(CSE &amp; ECE)Batch II
       <table className='table table-bordered'>
         
         <tr>
-        <th scope="row">DAY/TIME</th>
-          <th>MONDAY</th>
-          <th>TUESDAY</th>
-          <th>WEDNESDAY</th>
-          <th>THURSDAY</th>
-          <th>FRIDAY</th>
-          <th>SATURDAY</th>
+        <th scope="col">DAY/TIME</th>
+          <th scope="col">MONDAY</th>
+          <th scope="col">TUESDAY</th>
+          <th scope="col">WEDNESDAY</th>
+          <th scope="col">THURSDAY</th>
+          <th scope="col">FRIDAY</th>
+          <th scope="col">SATURDAY</th>
         </tr>
         <tr>
         <th scope="row">9:30 - 10:30</th>

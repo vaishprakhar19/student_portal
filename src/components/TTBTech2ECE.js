@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function TTBTech2ECE() {
   return (
-    <div>
-<h1>TTBTech2ECE</h1>
+    <div className="page">
+<h1>ECE 4th Sem</h1>
 <table class="table table-bordered">
   <thead>
     <tr>

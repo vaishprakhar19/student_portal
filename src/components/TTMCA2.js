@@ -2,26 +2,17 @@ import React from 'react'
 
 export default function TTMCA2() {
   return (
-    <div>
-<h1>TTMCA2</h1>
+    <div className="page" id="home">
+<h1>MCA 4th Sem</h1>
 <table>
     <tr>
-        <td>MCA IV</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>DAY/TIME</td>
-        <td>MONDAY</td>
-        <td>TUESDAY</td>
-        <td>WEDNESDAY</td>
-        <td>THURSDAY</td>
-        <td>FRIDAY </td>
-        <td>SATURDAY</td>
+        <th scope="col">DAY/TIME</th>
+        <th scope="col">MONDAY</th>
+        <th scope="col">TUESDAY</th>
+        <th scope="col">WEDNESDAY</th>
+        <th scope="col">THURSDAY</th>
+        <th scope="col">FRIDAY </th>
+        <th scope="col">SATURDAY</th>
     </tr>
     <tr>
         <td>9:30 - 10:30</td>

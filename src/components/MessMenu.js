@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function MessMenu() {
   return (
-    <div>
-<h1>MessMenu</h1>
+    <div className="page">
+<h1>Mess Menu</h1>
 <table class="table table-bordered">
   <thead>
     <tr>

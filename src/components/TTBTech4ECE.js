@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function TTBTech4ECE() {
   return (
-    <div>
-<h1>TTBTech4ECE</h1>
+    <div className="page">
+<h1>ECE 8th Sem</h1>
 <table class="table table-bordered">
     <tr>
         <th scope="col">DAY/TIME</th>

@@ -2,17 +2,17 @@ import React from 'react'
 
 export default function TTBTech4CSE() {
   return (
-    <div>
-<h1>TTBTech4CSE</h1>
+    <div className="page">
+<h1>CSE 8th Sem</h1>
 <table class="table table-bordered">
     <tr>
-        <th>DAY/TIME</th>
-        <th>MONDAY</th>
-        <th>TUESDAY</th>
-        <th>WEDNESDAY</th>
-        <th>THURSDAY</th>
-        <th>FRIDAY</th>
-        <th>SATURDAY</th>
+        <th scope="col">DAY/TIME</th>
+        <th scope="col">MONDAY</th>
+        <th scope="col">TUESDAY</th>
+        <th scope="col">WEDNESDAY</th>
+        <th scope="col">THURSDAY</th>
+        <th scope="col">FRIDAY</th>
+        <th scope="col">SATURDAY</th>
     </tr>
     <tr>
         <th>9:30 - 10:30</th>

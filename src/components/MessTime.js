@@ -2,15 +2,14 @@ import React from 'react'
 
 export default function MessTime() {
   return (
-    <div>
-      <h1>MessTimeB</h1>
+    <div className="page">
+      <h1>Mess Timing Boys</h1>
       <table className='table table-bordered'>
         <tr>
-          <th></th>
-          <th>BREAKFAST</th>
-          <th>LUNCH</th>
-          <th>TEA</th>
-          <th>DINNER</th>
+          <th scope="col">BREAKFAST</th>
+          <th scope="col">LUNCH</th>
+          <th scope="col">TEA</th>
+          <th scope="col">DINNER</th>
 
         </tr>
         <tr>
@@ -54,17 +53,16 @@ export default function MessTime() {
 
         </tr>
       </table >
-      <h1>MessTimeG</h1>
+      <h1>Mess Timing Girls</h1>
       <table className='table table-bordered'>
         <tr>
-          <th></th>
-          <th>BREAKFAST</th>
-          <th>LUNCH</th>
-          <th>TEA</th>
-          <th>DINNER</th>
+          <th scope="col" >BREAKFAST</th>
+          <th scope="col">LUNCH</th>
+          <th scope="col">TEA</th>
+          <th scope="col">DINNER</th>
         </tr>
         <tr>
-          <th>FIRST YEAR(B.TECH+MCA)</th>
+          <th>FIRST YEAR(B.TECH + MCA)</th>
           <td>7:30 AM TO 7:50 AM</td>
           <td>12:30 PM TO 01:30 PM</td>
           <td>4:00 PM TO 4:30 PM</td>
@@ -86,7 +84,7 @@ export default function MessTime() {
         </tr>
 
         <tr>
-          <th>FINAL YEAR(B.TECH+MCA)</th>
+          <th>FINAL YEAR(B.TECH + MCA)</th>
           <td>8:30 AM TO 9:00 AM</td>
           <td>12:30 PM TO 01:15 PM</td>
           <td>4:00 PM TO 4:30 PM</td>
