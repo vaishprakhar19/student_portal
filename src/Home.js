@@ -133,6 +133,7 @@ export default function Home(props) {
           <div class="card wallet col-md-4">
             <div class="overlay"></div>
             <div class="circle">
+              <img class="home-img" src='https://github.com/vaishprakhar19/student_portal/blob/main/resources/syllabus.jpg?raw=true'/>
               <defs></defs>
               <g transform="translate(23.000000, 29.500000)" fill-rule="evenodd" fill="none" stroke-width="1" stroke="none" id="icon">
                 <rect rx="4.70247832" height="21.8788565" width="9.40495664" y="26.0333433" x="67.8357511" fill="#AC8BE9" id="Rectangle-3"></rect>

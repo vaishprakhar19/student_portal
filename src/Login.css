@@ -38,7 +38,7 @@
   left:0;
   right:0;
   bottom:0;
-  z-index: 120;
+  z-index: 300;
   background-color: rgba(0, 0, 0, 0.623);
 }
 
@@ -54,7 +54,7 @@
   border-radius:20px;
   transition: 0.2s;
   transform:scale(0);
-  z-index:150;
+  z-index:400;
 }
 .textin{
 margin:20px auto 0px auto;
