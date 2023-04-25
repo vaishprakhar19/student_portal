@@ -32,6 +32,12 @@ function Login(props) {
   const handleReg = () => {
     reg ? setReg(false) : setReg(true);
   }
+  const handleDaysch = (event) => {
+    if(event.target.value==='Daysch')
+    props.setDaysch(true);
+    else props.setDaysch(true);
+  }
+  
 
   if (coursetemp === 'MCA') props.setStream('');
   return (
@@ -43,7 +49,7 @@ function Login(props) {
         </div>
         <img id="logo" src="https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png" />
       </div>
-<div className="blur" hidden={!popup}></div>
+      <div className="blur" hidden={!popup}></div>
 
 
 
@@ -81,7 +87,19 @@ function Login(props) {
           <input type="checkbox" className="form-check-input" id="checkbox" />
           <label className="form-check-label" htmlFor="checkbox">Remember me</label>
         </div>
-        <p>{reg ? 'Have an account? ':"Don't have an account? "}<Link onClick={handleReg}>{reg ? "Login Here." : "Register Now."}</Link></p>
+        <div class="form-check radio">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="radio1" value="Hosteller" onchange={handleDaysch} checked/>
+          <label class="form-check-label" for="exampleRadios1">
+            Hosteller
+          </label>
+        </div>
+        <div class="form-check radio">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="radio2" onchange={handleDaysch} value="Day Scholar"/>
+          <label class="form-check-label" for="exampleRadios2">
+            Day Scholar
+          </label>
+        </div>
+        <p>{reg ? 'Have an account? ' : "Don't have an account? "}<Link onClick={handleReg}>{reg ? "Login Here." : "Register Now."}</Link></p>
         {/* ???????????? */}
         <Link to='/home'><button type="submit" className="btn btn-primary" onClick={handleLogin}>Submit</button></Link>
       </form>

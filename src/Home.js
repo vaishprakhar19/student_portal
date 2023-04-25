@@ -43,12 +43,12 @@ export default function Home(props) {
             <VscTable className='icon' />
             <Link class="btn btn-secondary" to={'/tt' + props.course + props.year + props.stream} role="button">View Time Table &raquo;</Link>
           </div>
-          <div class="col-md-4">
-            <h2 className="sub-heading">Mess Menu</h2>
+          <div class="col-md-4" hidden={props.daysch}>
+            <h2 className="sub-heading" >Mess Menu</h2>
             <MdOutlineFoodBank className='icon' />
             <Link class="btn btn-secondary" to='/messmenu' role="button">View Mess Menu &raquo;</Link>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" hidden={props.daysch}>
             <h2 className="sub-heading">Mess Timing</h2>
             <BiTimer className='icon' />
             <Link class="btn btn-secondary" to='/messtime' role="button">View Mess Timing &raquo;</Link>

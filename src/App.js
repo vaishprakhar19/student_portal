@@ -42,13 +42,14 @@ function App() {
   const [year, setYear] = useState('');
   const [stream, setStream] = useState('');
   const [login, setLogin] = useState(false);
+  const [daysch, setDaysch] = useState(false);
   
   return (
     <Router>
         <Navbar login={login} setLogin={setLogin}/>
         <Routes>
-          <Route path='/login' element={<Login setCourse={setCourse} setYear={setYear} setStream={setStream} setName={setName} setLogin={setLogin}/>}/>
-          <Route path='/home' element={<Home name={name} course={course} year={year} stream={stream}/>} />
+          <Route path='/login' element={<Login setCourse={setCourse} setYear={setYear} setStream={setStream} setName={setName} setLogin={setLogin} setDaysch={setDaysch}/>}/>
+          <Route path='/home' element={<Home name={name} course={course} year={year} stream={stream} daysch={daysch}/>} />
           <Route path='/about' element={<About />} />
           <Route path='/holidays' element={<Holidays />} />
           <Route path='/sylMCA1' element={<SylMCA1 />} />
