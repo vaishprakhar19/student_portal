@@ -4,7 +4,7 @@ import { FaTwitter } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 import { FaMailBulk } from 'react-icons/fa';
 import { FaFacebook } from 'react-icons/fa';
-import './about.css'
+import './About.css'
 export function About() {
   return (
     <div id='about'>

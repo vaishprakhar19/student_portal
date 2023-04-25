@@ -6,7 +6,7 @@
     color: #C1F1E0;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: url(/src/Resources/Aboutback.jpg);
+    background-image: url();
 }
 .grid{
     background-image: linear-gradient(rgba(34, 34, 34, 0.712),rgba(0, 0, 0, 0.596),rgba(160, 154, 154, 0));
@@ -39,6 +39,7 @@
 }
 #about .g-col-6{
     line-height: 30px;
+    width:30em;
 }
 #about iframe{
     background-color: rgba(90, 143, 152, 0.406);
