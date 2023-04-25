@@ -44,9 +44,9 @@ function Login(props) {
   return (
     <div className="page">
       <div id="introduction">
-        <div className="intro-text" > <h1 className="display-2">Hello Bro</h1>
-          <p>lorem50kflhd jjhsdkjfhkjsdhj jkhdfjkhksjdhf khdfjkhskjhdf kjdhfkjhskjdfh ksjdhfkjhdkjf skhdjkfhkjshdfkjh kjdhfkjhsdkjfhkjshdf kjdhfkjshdkfjhs kjhdfkjhskjdfh kjhdfkjhksjhdf kjdhfkjshdkjfh oooooooooooooooooooooooooooooooooooooooooo</p>
-          <button class="button" onClick={handlePopup}>LOGIN</button>
+        <div className="intro-text" > <h1 className="display-2">Student Portal</h1>
+          <p></p>
+          <button class="button" onClick={handlePopup}>Login</button>
         </div>
         <img id="logo" src="https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png" />
       </div>
