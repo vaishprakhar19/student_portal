@@ -27,7 +27,8 @@ export default function Home(props) {
       <div class="jumbotron">
         <div class="container intro">
           <h1 class="display-3 main-heading"> Hello, {props.name.substring(0, props.name.indexOf(' '))}</h1>
-          <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+          <p>A student portal is a feature that every educational institute needs to have in the digital age. The most important benefit of a student portal is that it is time and cost-effective for the students as well as the University. It saves time and money for the students as all they have to do is access the student portal for whatever information they require. Secondly, students in university usually have a lot of things that they have to keep track of, such as mess schedules, timetables etc. This is even more so the case when a student is just joining an educational institute. A student portal makes it easy for a student to keep track of all the schedules and timetables and any changes to the same.
+it helps students stay on top of their deadlines. It helps to streamline processes.</p>
         </div>
       </div>
 
