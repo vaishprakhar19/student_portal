@@ -5,6 +5,12 @@
   #logo{
     width:70vw !important;
   }
+  #emailHelp{
+    margin:0px !important;
+  }
+  #login-form{
+    width:85vw!important;
+  }
 }
 #logo{
   width:35vw;
