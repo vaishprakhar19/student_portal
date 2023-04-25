@@ -15,7 +15,7 @@ export default function TTMCA1() {
     <th scope="col">SATURDAY</th>
   </tr>
   <tr>
-    <th scope="row"></th>9:30 - 10:30</th>
+    <th scope="row">9:30 - 10:30</th>
     <td>DS &amp; Algo (Mr. Neeraj)</td>
     <td>DS &amp; Algo (Mr. Neeraj)</td>
     <td>OOPS (Ms. Ayushi)</td>
