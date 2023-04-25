@@ -15,7 +15,7 @@ export default function TTMCA1() {
     <th scope="col">SATURDAY</th>
   </tr>
   <tr>
-    <td>9:30 - 10:30</td>
+    <th scope="row"></th>9:30 - 10:30</th>
     <td>DS &amp; Algo (Mr. Neeraj)</td>
     <td>DS &amp; Algo (Mr. Neeraj)</td>
     <td>OOPS (Ms. Ayushi)</td>
@@ -24,7 +24,7 @@ export default function TTMCA1() {
     <td>CBNST (Ms. Neema)</td>
   </tr>
   <tr>
-    <td>10:30 - 11:30</td>
+    <th scope="row">10:30 - 11:30</th>
     <td>CBNST (Ms. Neema)</td>
     <td>OOPS (Ms. Ayushi)</td>
     <td>DS &amp; Algo (Mr. Neeraj)</td>
@@ -33,7 +33,7 @@ export default function TTMCA1() {
     <td>CN (Mr. Neeraj)</td>
   </tr>
   <tr>
-    <td>11:30 - 12:30</td>
+    <th scope="row">11:30 - 12:30</th>
     <td>AI (Mr. Abhay Sharma)</td>
     <td>CN (Mr. Neeraj)</td>
     <td>AI (Mr. Abhay Sharma)</td>
@@ -42,7 +42,7 @@ export default function TTMCA1() {
     <td>OOPS (Ms. Ayushi)</td>
   </tr>
   <tr>
-    <td>BREAK</td>
+    <th scope="row">BREAK</th>
     <td>L</td>
     <td>U</td>
     <td>N</td>
@@ -51,7 +51,7 @@ export default function TTMCA1() {
     <td></td>
   </tr>
   <tr>
-    <td>1:00 - 2:00</td>
+    <th scope="row">1:00 - 2:00</th>
     <td></td>
     <td></td>
     <td></td>
@@ -60,7 +60,7 @@ export default function TTMCA1() {
     <td></td>
   </tr>
   <tr>
-    <td>2:00 - 3:00</td>
+    <th scope="row">2:00 - 3:00</th>
     <td>OOPS (Ms. Ayushi)</td>
     <td>CN Lab (Mr. Neeraj)</td>
     <td>DS &amp; Algo Lab (Mr. Neeraj)</td>
@@ -69,7 +69,7 @@ export default function TTMCA1() {
     <td></td>
   </tr>
   <tr>
-    <td>3:00 - 4:00</td>
+    <th scope="row">3:00 - 4:00</th>
     <td>CN (Mr. Neeraj)</td>
     <td></td>
     <td></td>

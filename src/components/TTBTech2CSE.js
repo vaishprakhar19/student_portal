@@ -15,7 +15,7 @@ export default function TTBTech2CSE() {
         <th scope="col">SATURDAY</th>
     </tr>
     <tr>
-        <th>9:30 - 10:30</th>
+        <th scope="row">9:30 - 10:30</th>
         <td>CO                                 (Dr. Sandesh Tripathi)</td>
         <td>Mathematics III                (Ms.Neema)</td>
         <td>Automata                 (Mr. Pankaj Nainwal)</td>
@@ -24,7 +24,7 @@ export default function TTBTech2CSE() {
         <td>Computer Organisations                                 (Dr. Sandesh Tripathi)</td>
     </tr>
     <tr>
-        <th>10:30 - 11:30</th>
+        <th scope="row">10:30 - 11:30</th>
         <td>Automata                (Mr. Pankaj Nainwal)</td>
         <td>Dbms                                        (Mr.Nitin)</td>
         <td>Software Engineering                                         ()</td>
@@ -33,7 +33,7 @@ export default function TTBTech2CSE() {
         <td>Dbms                                         (Mr.Nitin)</td>
     </tr>
     <tr>
-        <th>11:30 - 12:30</th>
+        <th scope="row">11:30 - 12:30</th>
         <td>Software Engineering                                         ()</td>
         <td>Computer Organisation                                (Dr. Sandesh Tripathi)</td>
         <td>Dbms                                         (Mr.Nitin)</td>
@@ -42,7 +42,7 @@ export default function TTBTech2CSE() {
         <td>Software Engineering                                         ()</td>
     </tr>
     <tr>
-        <th>BREAK</th>
+        <th scope="row">BREAK</th>
         <td>L</td>
         <td>U</td>
         <td>N</td>
@@ -51,7 +51,7 @@ export default function TTBTech2CSE() {
         <td></td>
     </tr>
     <tr>
-        <th>2:00 - 3:00</th>
+        <th scope="row">2:00 - 3:00</th>
         <td>Computer Organisation LAB/ Software Engineering LAB                       (Dr. Sandesh Tripathi/)</td>
         <td>Computer Organisation LAB/ Software Engineering LAB                       (Dr. Sandesh Tripathi/)</td>
         <td>Mathematics III                (Ms.Neema)</td>
@@ -60,7 +60,7 @@ export default function TTBTech2CSE() {
         <td></td>
     </tr>
     <tr>
-        <th>3:00 - 4:00</th>
+        <th scope="row">3:00 - 4:00</th>
         <td></td>
         <td></td>
         <td>Uhv                                        (Mr.Nitin)</td>

@@ -15,7 +15,7 @@ export default function TTBTech4CSE() {
         <th scope="col">SATURDAY</th>
     </tr>
     <tr>
-        <th>9:30 - 10:30</th>
+        <th scope="row">9:30 - 10:30</th>
         <td>Adv. Operating System         (Mr. Sitangshu Dey)</td>
         <td>Cryptography &amp; NS                      (Mr. Kaushal Bhatt )</td>
         <td>Adv. Operating System         (Mr. Sitangshu Dey)</td>
@@ -24,7 +24,7 @@ export default function TTBTech4CSE() {
         <td>Adv. Operating System         (Mr. Sitangshu Dey)</td>
     </tr>
     <tr>
-        <th>10:30 - 11:30</th>
+        <th scope="row">10:30 - 11:30</th>
         <td>Cryptography &amp; NS                      (Mr. Kaushal Bhatt )</td>
         <td>Cloud Security                        (Mr. Prashant Mishra)</td>
         <td>Project</td>
@@ -33,7 +33,7 @@ export default function TTBTech4CSE() {
         <td>Cryptography &amp; NS                      (Mr. Kaushal Bhatt )</td>
     </tr>
     <tr>
-        <th>11:30 - 12:30</th>
+        <th scope="row">11:30 - 12:30</th>
         <td></td>
         <td></td>
         <td></td>
@@ -42,7 +42,7 @@ export default function TTBTech4CSE() {
         <td>Cloud Security                        (Mr. Prashant Mishra)</td>
     </tr>
     <tr>
-        <th>BREAK</th>
+        <th scope="row">BREAK</th>
         <td>L</td>
         <td>U</td>
         <td>N</td>
@@ -51,7 +51,7 @@ export default function TTBTech4CSE() {
         <td></td>
     </tr>
     <tr>
-        <th>2:00 - 4:00</th>
+        <th scope="row">2:00 - 4:00</th>
         <td>Swayam</td>
         <td>Project</td>
         <td> Network Security Lab                    (Mr. Kaushal Bhatt)</td>

@@ -15,7 +15,7 @@ export default function TTBTech3ECE() {
         <th scope="col">SATURDAY</th>
     </tr>
     <tr>
-        <th>9:30 - 10:30</th>
+        <th scope="row">9:30 - 10:30</th>
         <td>Digital Signal Processing                      (Mr. Anoop Raghuvanshi)</td>
         <td>Cellular &amp; Mobile Communication                        (Mr. Abhinav Bhatnagar)</td>
         <td>Cellular &amp; Mobile Communication                        (Mr. Abhinav Bhatnagar)</td>
@@ -24,7 +24,7 @@ export default function TTBTech3ECE() {
         <td>Digital Comm.                  (Ms. Sheenu Agarwal)</td>
     </tr>
     <tr>
-        <th>10:30 - 11:30</th>
+        <th scope="row">10:30 - 11:30</th>
         <td>Antenna                            (Mr. Sourabh Joshi)</td>
         <td>Digital Comm. Lab /DSP Lab                                   (Ms. Sheenu/Mr. Anoop)</td>
         <td>Digital Signal Processing                      (Mr. Anoop Raghuvanshi)</td>
@@ -33,7 +33,7 @@ export default function TTBTech3ECE() {
         <td>Digital Signal Processing                      (Mr. Anoop Raghuvanshi)</td>
     </tr>
     <tr>
-        <th>11:30 - 12:30</th>
+        <th scope="row">11:30 - 12:30</th>
         <td>Digital Comm.                  (Ms. Sheenu Agarwal)</td>
         <td></td>
         <td>Microcontroller                      (Mr. Anil Chaurasia)</td>
@@ -42,7 +42,7 @@ export default function TTBTech3ECE() {
         <td>Cellular &amp; Mobile Communication                        (Mr. Abhinav Bhatnagar)</td>
     </tr>
     <tr>
-        <th>BREAK</th>
+        <th scope="row">BREAK</th>
         <td>L</td>
         <td>U</td>
         <td>N</td>
@@ -51,7 +51,7 @@ export default function TTBTech3ECE() {
         <td></td>
     </tr>
     <tr>
-        <th>2:00 - 3:00</th>
+        <th scope="row">2:00 - 3:00</th>
         <td>Antenna Lab /DSP Lab                      (Mr. Saurabh/Mr. Anoop)</td>
         <td>Antenna                            (Mr. Sourabh Joshi)</td>
         <td>Digital Comm.                  (Ms. Sheenu Agarwal)</td>
@@ -60,7 +60,7 @@ export default function TTBTech3ECE() {
         <td></td>
     </tr>
     <tr>
-        <th>3:00 - 4:00</th>
+        <th scope="row">3:00 - 4:00</th>
         <td></td>
         <td>Microcontroller                      (Mr. Anil Chaurasia)</td>
         <td>Antenna                            (Mr. Sourabh Joshi)</td>

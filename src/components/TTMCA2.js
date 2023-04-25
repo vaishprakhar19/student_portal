@@ -15,7 +15,7 @@ export default function TTMCA2() {
         <th scope="col">SATURDAY</th>
     </tr>
     <tr>
-        <td>9:30 - 10:30</td>
+        <th scope="row">9:30 - 10:30</th>
         <td>Compiler Design    (Mr. Pankaj)</td>
         <td>NLP                         (Mr. S.Dey)</td>
         <td>NLP                         (Mr. S.Dey)</td>
@@ -24,7 +24,7 @@ export default function TTMCA2() {
         <td>Distributed Sys.                       (Mr. Prashant)</td>
     </tr>
     <tr>
-        <td>10:30 - 11:30</td>
+        <th scope="row">10:30 - 11:30</th>
         <td>Network &amp; Cyber Security               (Mr. Kaushal )</td>
         <td>Network &amp; Cyber Security                    (Mr. Kaushal )</td>
         <td>.Net                       (Ms. Neema)</td>
@@ -33,7 +33,7 @@ export default function TTMCA2() {
         <td>Network &amp; Cyber Security                    (Mr. Kaushal )</td>
     </tr>
     <tr>
-        <td>11:30 - 12:30</td>
+        <th scope="row">11:30 - 12:30</th>
         <td>NLP                         (Mr. S.Dey)</td>
         <td></td>
         <td>Distributed Sys.                       (Mr. Prashant)</td>
@@ -42,7 +42,7 @@ export default function TTMCA2() {
         <td>.Net                          (Ms. Neema)</td>
     </tr>
     <tr>
-        <td>BREAK</td>
+        <th scope="row">BREAK</th>
         <td>L</td>
         <td>U</td>
         <td>N</td>
@@ -51,7 +51,7 @@ export default function TTMCA2() {
         <td></td>
     </tr>
     <tr>
-        <td>2:00 - 3:00</td>
+        <th scope="row">2:00 - 3:00</th>
         <td>Distributed Sys.                       (Mr. Prashant)</td>
         <td>.Net Lab                 (Ms. Neema)</td>
         <td>Network Security Lab                         (Mr. Kaushal )</td>
@@ -60,7 +60,7 @@ export default function TTMCA2() {
         <td></td>
     </tr>
     <tr>
-        <td>3:00 - 4:00</td>
+        <th scope="row">3:00 - 4:00</th>
         <td>Compiler Design    (Mr. Pankaj)</td>
         <td></td>
         <td></td>

@@ -54,13 +54,16 @@ export default function TTBTech2ECE() {
     <td> </td></tr>
     <tr><th scope="row">2:00-3:00</th>
     <td>Energy and Env. Studies <br/>(Mr.Abhinav Bhatnagar)</td>
-    <td>Analog Comm.Lab/Control Sys.Lab <br/>(Ms.Monika/Mr.Indira Bisht)</td></tr>
-    <tr><th scope="row">3:00-4:00</th>
+    <td>Analog Comm.Lab/Control Sys.Lab <br/>(Ms.Monika/Mr.Indira Bisht)</td>
+    </tr>
+    <tr>
+      <th scope="row">3:00-4:00</th>
     <td>Analog Communications <br/>(Ms.Monika Nanda)</td>
     <td>Analog Comm.Lab/Control Sys.Lab <br/>(Ms.Monika/Mr.Indira Bisht)</td>
     <td>UHV<br/>(Mr. Nitin)</td>
     <td>Analog Comm.Lab/Control Sys.Lab <br/>(Ms.Monika/Mr.Indira Bisht)</td>
-    <td>Analog Comm.Lab/Control Sys.Lab <br/>(Ms.Monika/Mr.Indira Bisht)</td></tr>
+    <td>Analog Comm.Lab/Control Sys.Lab <br/>(Ms.Monika/Mr.Indira Bisht)</td>
+    </tr>
     
     
   </tbody>

@@ -13,7 +13,7 @@ export default function MessTime() {
 
         </tr>
         <tr>
-          <th>1ST YEAR B.TECH + LE</th>
+          <th scope="row">1ST YEAR B.TECH + LE</th>
           <td>7:30 AM TO 8:00 AM</td>
           <td>12:30 PM TO 01:15 PM</td>
           <td>4:00 PM TO 4:30 PM</td>
@@ -21,7 +21,7 @@ export default function MessTime() {
 
         </tr>
         <tr>
-          <th>1ST YEAR MCA + LE</th>
+          <th scope="row">1ST YEAR MCA + LE</th>
           <td>7:45 AM TO 8:10 AM</td>
           <td>12:30 PM TO 01:15 PM</td>
           <td>4:00 PM TO 4:30 PM</td>
@@ -29,7 +29,7 @@ export default function MessTime() {
 
         </tr>
         <tr>
-          <th>2ND YEAR</th>
+          <th scope="row">2ND YEAR</th>
           <td>7:45 AM TO 8:10 AM</td>
           <td>12:30 PM TO 01:30 PM</td>
           <td>4:00 PM TO 4:30 PM</td>
@@ -37,7 +37,7 @@ export default function MessTime() {
 
         </tr>
         <tr>
-          <th>3RD YEAR BTECH +MCA 2ND YEAR</th>
+          <th scope="row">3RD YEAR BTECH +MCA 2ND YEAR</th>
           <td> 8:10 AM TO 8:50 AM</td>
           <td>12:30 PM TO 01:30 PM</td>
           <td>4:00 PM TO 4:30 PM</td>
@@ -45,7 +45,7 @@ export default function MessTime() {
 
         </tr>
         <tr>
-          <th>FINAL YEAR</th>
+          <th scope="row">FINAL YEAR</th>
           <td>8:00 AM TO 9:15 AM</td>
           <td>12:30 PM TO 01:30 PM</td>
           <td>4:00 PM TO 4:30 PM</td>
@@ -62,21 +62,21 @@ export default function MessTime() {
           <th scope="col">DINNER</th>
         </tr>
         <tr>
-          <th>FIRST YEAR(B.TECH + MCA)</th>
+          <th scope="row">FIRST YEAR(B.TECH + MCA)</th>
           <td>7:30 AM TO 7:50 AM</td>
           <td>12:30 PM TO 01:30 PM</td>
           <td>4:00 PM TO 4:30 PM</td>
           <td>7:00 PM TO 7:25 PM</td>
         </tr>
         <tr>
-          <th>2ND YEAR BTECH </th>
+          <th scope="row">2ND YEAR BTECH </th>
           <td>7:50 AM TO 8:10 AM</td>
           <td>12:35 PM TO 01:00 PM</td>
           <td>4:00 PM TO 4:30 PM</td>
           <td>7:25 PM TO 7:40 PM</td>
         </tr>
         <tr>
-          <th>3RD YEAR BTECH </th>
+          <th scope="row">3RD YEAR BTECH </th>
           <td>8:10 AM TO 8:30 AM</td>
           <td>12:40 PM TO 01:15 PM</td>
           <td>4:00 PM TO 4:30 PM</td>
@@ -84,7 +84,7 @@ export default function MessTime() {
         </tr>
 
         <tr>
-          <th>FINAL YEAR(B.TECH + MCA)</th>
+          <th scope="row">FINAL YEAR(B.TECH + MCA)</th>
           <td>8:30 AM TO 9:00 AM</td>
           <td>12:30 PM TO 01:15 PM</td>
           <td>4:00 PM TO 4:30 PM</td>
