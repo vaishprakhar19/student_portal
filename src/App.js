@@ -17,16 +17,6 @@ import TTBTech3ECE from './components/TTBTech3ECE';
 import TTBTech4ECE from './components/TTBTech4ECE';
 import TTMCA1 from './components/TTMCA1';
 import TTMCA2 from './components/TTMCA2';
-import SylBTech1CSE from './components/SylBTech1CSE';
-import SylBTech2CSE from './components/SylBTech2CSE';
-import SylBTech3CSE from './components/SylBTech3CSE';
-import SylBTech4CSE from './components/SylBTech4CSE';
-import SylBTech1ECE from './components/SylBTech1ECE';
-import SylBTech2ECE from './components/SylBTech2ECE';
-import SylBTech3ECE from './components/SylBTech3ECE';
-import SylBTech4ECE from './components/SylBTech4ECE';
-import SylMCA1 from './components/SylMCA1';
-import SylMCA2 from './components/SylMCA2';
 import {Login,course,year,stream} from './Login';
 
 import {
@@ -52,16 +42,6 @@ function App() {
           <Route path='/home' element={<Home name={name} course={course} year={year} stream={stream} daysch={daysch}/>} />
           <Route path='/about' element={<About />} />
           <Route path='/holidays' element={<Holidays />} />
-          <Route path='/sylMCA1' element={<SylMCA1 />} />
-          <Route path='/sylMCA2' element={<SylMCA2 />} />
-          <Route path='/sylBTech1CSE' element={<SylBTech1CSE />} />
-          <Route path='/sylBTech1ECE' element={<SylBTech1ECE />} />
-          <Route path='/sylBTech2CSE' element={<SylBTech2CSE />} />
-          <Route path='/sylBTech2ECE' element={<SylBTech2ECE />} />
-          <Route path='/sylBTech3CSE' element={<SylBTech3CSE />} />
-          <Route path='/sylBTech3ECE' element={<SylBTech3ECE />} />
-          <Route path='/sylBTech4CSE' element={<SylBTech4CSE />} />
-          <Route path='/sylBTech4ECE' element={<SylBTech4ECE />} />
           <Route path='/ttMCA1' element={<TTMCA1 />} />
           <Route path='/ttMCA2' element={<TTMCA2 />} />
           <Route path='/ttBTech1ECE' element={<TTBTech1ECE />} />
