@@ -9,7 +9,6 @@ function Login(props) {
   const [coursetemp, setcoursetemp] = useState('');
   const [popup, setPopup] = useState(false);
   const [reg, setReg] = useState(false);
-  const [temp, settemp] = useState(false);
 
   const handleCourse = (event) => {
     setcoursetemp(event.target.value);
@@ -55,7 +54,6 @@ function Login(props) {
 
 
 
-
       <form autoComplete="off" id="login-form" style={popup ? { transform: 'scale(1)' } : { transform: 'scale(0)' }}>
         <h1>Student Login</h1>
         <div className="form-group">
@@ -89,13 +87,13 @@ function Login(props) {
           <input type="checkbox" className="form-check-input" id="checkbox" />
           <label className="form-check-label" htmlFor="checkbox">Remember me</label>
         </div>
-        <div class="form-check radio">
+        <div class="form-check radio" hidden={!reg}>
           <input class="form-check-input" type="radio" name="exampleRadios" id="radio1" value="Hosteller" onChange={handleHosteller}/>
           <label class="form-check-label" htmlFor="exampleRadios1">
             Hosteller
           </label>
         </div>
-        <div class="form-check radio">
+        <div class="form-check radio" hidden={!reg}>
           <input class="form-check-input" type="radio" name="exampleRadios" id="radio2" onChange={handleDaysch} value="DaySch"/>
           <label class="form-check-label" htmlFor="exampleRadios2">
             Day Scholar
