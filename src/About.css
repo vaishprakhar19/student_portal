@@ -2,6 +2,12 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+@media (max-width:768px) {
+    #about iframe{
+        width: 70vw;
+    }
+}
+
 #about{
     color: #C1F1E0;
     background-repeat: no-repeat;
@@ -29,6 +35,7 @@
     font-size: larger;
     padding-right: 10px;
     text-align: left;
+    flex-wrap: wrap;
 }
 #about p{
     text-align: left;
@@ -43,11 +50,11 @@
 }
 #about iframe{
     background-color: rgba(90, 143, 152, 0.406);
-    width: 35rem;
+    width: 40vw;
     height: 30rem;
     border: 0px;
     border-radius: 10px;
-    margin: 40px;
+    margin: 40px auto;
 }
 #about h3{
     display: flex;
