@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Button, Container, IconButton, Input } from "@mui/material";
+import {IconButton, Input } from "@mui/material";
 import RemoveDoneIcon from "@mui/icons-material/RemoveDone";
 import AddTaskIcon from "@mui/icons-material/AddTask";
 
@@ -16,7 +16,7 @@ const Form = ({ addTodo, clearAllFinished }) => {
   };
 
   return (
-    <Container>
+    <div>
       <form onSubmit={handleSubmit}>
         <Input
           autoFocus
@@ -35,7 +35,7 @@ const Form = ({ addTodo, clearAllFinished }) => {
           <RemoveDoneIcon color="primary"></RemoveDoneIcon>
         </IconButton>
       </form>
-    </Container>
+    </div>
   );
 };
 

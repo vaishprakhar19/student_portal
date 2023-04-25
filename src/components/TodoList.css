@@ -21,3 +21,11 @@
   border: 1px solid white;
   border-radius: 5px;
 }
+#todo-form{
+  margin: auto;
+  width:20vw;
+  display: inline-block;
+}
+form{
+  display: inline-block;
+}
