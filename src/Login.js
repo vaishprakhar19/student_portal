@@ -45,7 +45,7 @@ function Login(props) {
   return (
     <div className="page">
       <div id="introduction">
-        <div className="intro-text" > <h1 className="display-2">Student Portal</h1>
+        <div className="intro-text" > <h1 className="display-2"></h1>
           <p></p>
           <button class="button" onClick={handlePopup}>Login</button>
         </div>
