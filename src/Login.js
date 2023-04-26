@@ -46,7 +46,7 @@ function Login(props) {
     <div className="page">
       <div id="introduction">
         <div className="intro-text" > <h1 className="display-2"></h1>
-          <p></p>
+          <p>A platform where you can plan and manage all your daily tasks and schedules!</p>
           <button class="button" onClick={handlePopup}>Login</button>
         </div>
         <img id="logo" src="https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png" />
