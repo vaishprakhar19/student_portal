@@ -49,7 +49,7 @@
   right:0px;
   margin:auto;
   background-color: rgb(242, 151, 193);
-  padding: 30px;
+  padding: 40px;
   width: min(65vw,30em);
   border-radius:20px;
   transition: 0.2s;
@@ -73,10 +73,10 @@ border:none;
 border-bottom: 2px solid black;
 outline:none;
 }
+
 .textin::placeholder{
   color:black;
 }
-
 .form-check{
   margin:20px 0px;
 }
@@ -89,6 +89,7 @@ outline:none;
   border-bottom: 2px solid black;
   margin:20px auto 2px auto;
   padding-left: 10px;
+  cursor: pointer;
 }
 .select:focus{
   outline:none;
@@ -102,6 +103,14 @@ option{background-color: aqua;
 }
 #radio1,#radio2{
   transition: 0.3s;
+}
+#close-button{
+  position:absolute;
+  right:20px;
+  top:20px;
+  font-size: 20px;
+  color:black;
+  cursor:pointer;
 }
 
 /* #checkbox:checked{

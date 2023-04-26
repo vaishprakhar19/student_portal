@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Link, useNavigate } from "react-router-dom";
 import './Login.css';
+import {RxCross2} from 'react-icons/rx';
 
 
 function Login(props) {
@@ -56,6 +57,7 @@ function Login(props) {
 
       <form onSubmit={handleLogin} id="login-form" style={popup ? { transform: 'scale(1)' } : { transform: 'scale(0)' }}>
         <h1>Student Login</h1>
+        <RxCross2 id="close-button" onClick={handlePopup} />
         <div className="form-group">
           <input required hidden={!reg} type="text" className=" textin" id="name" aria-describedby="namelHelp" placeholder="Enter Name" onChange={handleName} />
         </div>
