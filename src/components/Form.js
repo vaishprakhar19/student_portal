@@ -28,7 +28,6 @@ const Form = ({ addTodo, clearAllFinished }) => {
             setFormValue({ ...formValue, content: e.target.value })
           }
         />
-      </form>
         <div>
           <IconButton variant="contained" color="primary" type="submit">
             <AddTaskIcon></AddTaskIcon>
@@ -37,6 +36,7 @@ const Form = ({ addTodo, clearAllFinished }) => {
             <RemoveDoneIcon color="primary"></RemoveDoneIcon>
           </IconButton>
         </div>
+      </form>
     </div>
   );
 };
