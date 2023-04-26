@@ -63,6 +63,7 @@ function Login(props) {
         </div>
         <div className="form-group">
           <input required type="email" className="textin" id="email" aria-describedby="emailHelp" placeholder="Enter Email" />
+          
           <small hidden={!reg} id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
         </div>
         <div className="form-group">
