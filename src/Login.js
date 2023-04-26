@@ -59,7 +59,7 @@ function Login(props) {
         <h1>Student Login</h1>
         <RxCross2 id="close-button" onClick={handlePopup} />
         <div className="form-group">
-          <input required hidden={!reg} type="text" className=" textin" id="name" aria-describedby="namelHelp" placeholder="Enter Name" onChange={handleName} />
+          <input required hidden={!reg} type="text" className=" textin" id="name" aria-describedby="namelHelp" placeholder="Enter Full Name" onChange={handleName} />
         </div>
         <div className="form-group">
           <input required type="email" className="textin" id="email" aria-describedby="emailHelp" placeholder="Enter Email" />
