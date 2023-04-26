@@ -13,9 +13,9 @@ export default function Contacts() {
           <p class="contact-text-body">
             <h5>CHIEF HOSTEL WARDEN (BOYS)</h5>
             <ul>
-              <li>DR.SANDESH TRIPATHI: 94153 64502 </li>
-              <li>MR.NEERAJ SINGH BISHT: 94151 71251 </li>
-              <li>MR.ABHAY KUMAR SHARMA: 94111 99555</li>
+              <li>DR.SANDESH TRIPATHI: 9415364502 </li>
+              <li>MR.NEERAJ SINGH BISHT: 9415171251 </li>
+              <li>MR.ABHAY KUMAR SHARMA: 9411199555</li>
             </ul>
             <h5>
               CHIEF HOSTEL WARDEN (GIRLS)
@@ -27,7 +27,7 @@ export default function Contacts() {
             <ul>
               <li>GATE CONTACT NUMBER: 945811468
               </li>
-              <li>REGISTRAR: 94129 96069</li>
+              <li>REGISTRAR: 9412996069</li>
             </ul>
             <h5>EMAIL ID</h5>
             <ul><li>info@birlainstitute.co.in</li></ul></p>
