@@ -28,14 +28,14 @@ const Form = ({ addTodo, clearAllFinished }) => {
             setFormValue({ ...formValue, content: e.target.value })
           }
         />
-        <div>
+        
           <IconButton variant="contained" color="primary" type="submit">
             <AddTaskIcon></AddTaskIcon>
           </IconButton>
           <IconButton variant="contained" onClick={clearAllFinished}>
             <RemoveDoneIcon color="primary"></RemoveDoneIcon>
           </IconButton>
-        </div>
+       
       </form>
     </div>
   );

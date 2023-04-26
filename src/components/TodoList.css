@@ -41,4 +41,6 @@
 #todo-form {
   width: 200px;
   margin: 10px;
+  display: flex;
+  justify-content: center;
 }

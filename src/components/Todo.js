@@ -5,16 +5,7 @@ import { Done } from "@mui/icons-material";
 import { Cancel } from "@mui/icons-material";
 const Todo = ({ todo, handleMark, handleDelete, index }) => {
   return (
-    <div className="todo"
-      style={{
-        display: "flex",
-        justifyContent: "space-between",
-        alignItems: "center",
-        border: "1px solid white",
-        borderRadius: "5px",
-        height: "100%",
-      }}
-    >
+    <div className="todo">
       <IconButton
         onClick={() => handleMark(index)}
         style={{ color: "#50fa7b" }}
