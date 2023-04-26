@@ -1,17 +1,22 @@
 import React, { useState } from 'react'
-import {Link} from "react-router-dom";
+import {Link, useNavigate} from "react-router-dom";
 import './Navbar.css';
 
 export default function Navbar(props) {  
   const handleLogin=()=>{
+    navigate('/login');
     props.setLogin(false);
   }  
+  const navigate = useNavigate();
   return (
     <>
     <div>
       <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <div><img id="top-logo" src='https://github.com/vaishprakhar19/student_portal/blob/main/resources/birla-logo.png?raw=true'/>
-        <Link className="navbar-brand" to="/home">Student Portal</Link></div>
+      <div>
+        <div className='logobg'></div>
+        <img id="top-logo" src='https://github.com/vaishprakhar19/student_portal/blob/main/resources/birla-logo.png?raw=true'/>
+        <Link className="navbar-brand" to="/home">Student Portal</Link>
+        </div>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarcollapse" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
@@ -25,7 +30,7 @@ export default function Navbar(props) {
             <Link className="nav-link" to="/about">About</Link>
           </li>
           <li className="nav-item">
-          <Link className="button" to="/login" role="button" onClick={handleLogin}>Log {props.login?'Out':'In'}</Link>
+          <button className="button" onClick={handleLogin}>Log {props.login?'Out':'In'}</button>
           </li>
         </ul>
       </div>

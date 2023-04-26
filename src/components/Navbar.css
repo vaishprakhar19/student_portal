@@ -1,8 +1,9 @@
 .navbar {
-    padding: 10px 20px;
+    padding: 12px 20px;
     background-color: rgba(19, 19, 57, 0.815) !important;
     backdrop-filter: blur(5px);
     z-index: 200;
+
 }
 
 #navbarcollapse {
@@ -10,19 +11,17 @@
 }
 
 @media screen and (max-width:768px) {
-    #navbarcollapse {
-        margin: 0px 0px 20px 20px;
-    }
-
     .nav-link {
-        margin: -15px 25px 25px 20px!important;
+        margin: 10px 25px 0px 25px !important;
     }
     #navbarcollapse li .button{
-        margin-top: 20px !important; 
+        margin: 20px 0px; 
     }
     
 }
-
+.navbar-brand{
+font-weight: 700 !important;
+}
 
 .navbar-nav {
     display: flex;
@@ -30,7 +29,9 @@
 }
 
 a{text-decoration: none;}
-
+.navbar li .button{
+    margin-top:4px;
+}
 .nav-link {
     color: white;
     font-weight: 400;
@@ -42,4 +43,16 @@ a{text-decoration: none;}
     margin-top: -6px;
     margin-left: -5px;
     margin-right: 10px;
+    z-index: 300;
+    position: relative;
+}
+.logobg{
+    width:50px;
+    height:50px;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top:5.5px;
+    left:9.8px;
+    z-index: 100;
 }
