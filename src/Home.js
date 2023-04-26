@@ -32,7 +32,7 @@ export default function Home(props) {
 
 
 
-      <div class="container">
+      <div>
         <div class="row">
           <Link to={link}>
             <div class="card wallet col-md-4">
