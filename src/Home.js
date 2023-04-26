@@ -30,7 +30,7 @@ Hop on and enjoy these handy features</p>
       <div>
         <div class="row">
 
-          <Link to={link}>
+          <a href={link} target="_blank">
             <div class="card wallet col-md-4">
               <div class="overlay"></div>
               <div class="circle">
@@ -50,7 +50,7 @@ Hop on and enjoy these handy features</p>
               </div>
               <p>Syllabus</p>
             </div>
-          </Link>
+          </a>
 
           <Link to={'/tt'+props.course+props.year+props.stream}>
             <div class="card wallet col-md-4">
