@@ -1,8 +1,10 @@
 import React, { useState } from 'react'
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import './Login.css';
-function Login(props) {
 
+
+function Login(props) {
+ const navigate=useNavigate();
   const [coursetemp, setcoursetemp] = useState('');
   const [popup, setPopup] = useState(false);
   const [reg, setReg] = useState(false);
@@ -21,6 +23,7 @@ function Login(props) {
     props.setName(event.target.value);
   }
   const handleLogin = () => {
+    navigate('/Home');
     props.setLogin(true);
   }
   const handlePopup = () => {
@@ -51,7 +54,7 @@ function Login(props) {
 
 
 
-      <form autoComplete="off" id="login-form" style={popup ? { transform: 'scale(1)' } : { transform: 'scale(0)' }}>
+      <form onSubmit={handleLogin}  id="login-form" style={popup ? { transform: 'scale(1)' } : { transform: 'scale(0)' }}>
         <h1>Student Login</h1>
         <div className="form-group">
           <input required hidden={!reg} type="text" className=" textin" id="name" aria-describedby="namelHelp" placeholder="Enter Name" onChange={handleName} />
@@ -98,7 +101,7 @@ function Login(props) {
         </div>
         <p>{reg ? 'Have an account? ' : "Don't have an account? "}<Link onClick={handleReg}>{reg ? "Login Here." : "Register Now."}</Link></p>
         {/* ???????????? */}
-        <Link to='/home'><button className='button' onClick={handleLogin}>Submit</button></Link>
+        <button className='button' type='submit'>Submit</button>
       </form>
     </div>
   )
