@@ -4,7 +4,7 @@ import './Login.css';
 
 
 function Login(props) {
- const navigate=useNavigate();
+  const navigate = useNavigate();
   const [coursetemp, setcoursetemp] = useState('');
   const [popup, setPopup] = useState(false);
   const [reg, setReg] = useState(false);
@@ -38,7 +38,7 @@ function Login(props) {
   const handleHosteller = () => {
     props.setDaysch(false);
   }
-  
+
 
   if (coursetemp === 'MCA') props.setStream('');
   return (
@@ -54,7 +54,7 @@ function Login(props) {
 
 
 
-      <form onSubmit={handleLogin}  id="login-form" style={popup ? { transform: 'scale(1)' } : { transform: 'scale(0)' }}>
+      <form onSubmit={handleLogin} id="login-form" style={popup ? { transform: 'scale(1)' } : { transform: 'scale(0)' }}>
         <h1>Student Login</h1>
         <div className="form-group">
           <input required hidden={!reg} type="text" className=" textin" id="name" aria-describedby="namelHelp" placeholder="Enter Name" onChange={handleName} />
@@ -88,19 +88,18 @@ function Login(props) {
           <label className="form-check-label" htmlFor="checkbox">Remember me</label>
         </div>
         <div class="form-check radio" hidden={!reg}>
-          <input class="form-check-input" type="radio" name="exampleRadios" id="radio1" value="Hosteller" onChange={handleHosteller}/>
+          <input class="form-check-input" type="radio" name="exampleRadios" id="radio1" value="Hosteller" onChange={handleHosteller} />
           <label class="form-check-label" htmlFor="exampleRadios1">
             Hosteller
           </label>
         </div>
         <div class="form-check radio" hidden={!reg}>
-          <input class="form-check-input" type="radio" name="exampleRadios" id="radio2" onChange={handleDaysch} value="DaySch"/>
+          <input class="form-check-input" type="radio" name="exampleRadios" id="radio2" onChange={handleDaysch} value="DaySch" />
           <label class="form-check-label" htmlFor="exampleRadios2">
             Day Scholar
           </label>
         </div>
         <p>{reg ? 'Have an account? ' : "Don't have an account? "}<Link onClick={handleReg}>{reg ? "Login Here." : "Register Now."}</Link></p>
-        {/* ???????????? */}
         <button className='button' type='submit'>Submit</button>
       </form>
     </div>

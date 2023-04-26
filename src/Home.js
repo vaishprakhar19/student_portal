@@ -34,6 +34,7 @@ export default function Home(props) {
 
       <div>
         <div class="row">
+          
           <Link to={link}>
             <div class="card wallet col-md-4">
               <div class="overlay"></div>
@@ -77,6 +78,7 @@ export default function Home(props) {
               <p>Time Table</p>
             </div>
           </Link>
+
           <Link to='/messtime'>
             <div class="card wallet col-md-4">
               <div class="overlay"></div>
@@ -98,6 +100,7 @@ export default function Home(props) {
               <p>Mess Schedule</p>
             </div>
           </Link>
+
           <Link to='/messmenu'>
             <div class="card wallet col-md-4">
               <div class="overlay"></div>
@@ -119,6 +122,7 @@ export default function Home(props) {
               <p>Mess Menu</p>
             </div>
           </Link>
+
           <Link to='/holidays'>
             <div class="card wallet col-md-4">
               <div class="overlay"></div>
@@ -140,6 +144,7 @@ export default function Home(props) {
               <p>Holiday Calender</p>
             </div>
           </Link>
+
           <Link to='/todolist'>
             <div class="card wallet col-md-4">
               <div class="overlay"></div>
@@ -161,6 +166,7 @@ export default function Home(props) {
               <p>ToDo List</p>
             </div>
           </Link>
+
           <Link to='/contacts'>
             <div class="card wallet col-md-4">
               <div class="overlay"></div>
@@ -183,70 +189,8 @@ export default function Home(props) {
             </div>
           </Link>
 
-
-
         </div>
       </div >
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      {/* 
-
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <h2 className="sub-heading">Syllabus</h2>
-            <GiBookshelf className='icon' />
-            <Link class="btn btn-secondary" to={link} target="_blank" role="button">View Syllabus &raquo;</Link>
-          </div>
-          <div class="col-md-4">
-            <h2 className="sub-heading">Time Table</h2>
-            <VscTable className='icon' />
-            <Link class="btn btn-secondary" to={'/tt' + props.course + props.year + props.stream} role="button">View Time Table &raquo;</Link>
-          </div>
-          <div class="col-md-4" hidden={props.daysch}>
-            <h2 className="sub-heading" >Mess Menu</h2>
-            <MdOutlineFoodBank className='icon' />
-            <Link class="btn btn-secondary" to='/messmenu' role="button">View Mess Menu &raquo;</Link>
-          </div>
-          <div class="col-md-4" hidden={props.daysch}>
-            <h2 className="sub-heading">Mess Timing</h2>
-            <BiTimer className='icon' />
-            <Link class="btn btn-secondary" to='/messtime' role="button">View Mess Timing &raquo;</Link>
-          </div>
-          <div class="col-md-4">
-            <h2 className="sub-heading">Holidays</h2>
-            <MdOutlineFestival className='icon' />
-            <Link class="btn btn-secondary" to="/holidays" role="button">View Holidays &raquo;</Link>
-          </div>
-          <div class="col-md-4">
-            <h2 className="sub-heading">Important Contacts</h2>
-            <MdContactPhone className='icon' />
-            <Link class="btn btn-secondary" to="/contacts" role="button">View Contacts &raquo;</Link>
-          </div>
-          <div class="col-md-4">
-            <h2 className="sub-heading">Todo List</h2>
-            <MdContactPhone className='icon' />
-            <Link class="btn btn-secondary" to="/todolist" role="button">Todo List &raquo;</Link>
-          </div>
-        </div>
-      </div> */}
-
     </div >
   )
 }

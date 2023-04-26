@@ -55,6 +55,7 @@
   transition: 0.2s;
   transform:scale(0);
   z-index:400;
+  
 }
 .textin{
 margin:20px auto 0px auto;
@@ -97,3 +98,12 @@ option{background-color: aqua;
 .radio{
   margin:15px 10px;
 }
+#checkbox{transition:0.3s;
+}
+#radio1,#radio2{
+  transition: 0.3s;
+}
+
+/* #checkbox:checked{
+background-color: black;
+} */
