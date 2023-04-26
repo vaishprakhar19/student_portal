@@ -26,9 +26,9 @@ const Todo = ({ todo, handleMark, handleDelete, index }) => {
         style={
           todo.isDone
             ? {
-                textDecoration: "line-through",
-                color: "gray",
-              }
+              textDecoration: "line-through",
+              color: "gray",
+            }
             : {}
         }
       >

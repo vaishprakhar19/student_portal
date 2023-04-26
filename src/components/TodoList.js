@@ -33,7 +33,7 @@ const [todos, setTodos] = useState(
   
   return ( <>
   <div className="page">
-    <h1 className="sub-heading heading-space">ToDo List</h1>
+    <h1 className="heading-space">ToDo List</h1>
     <Form id="todo-form" addTodo={addTodo} clearAllFinished={clearAllFinished} />
       <div className="todos-container">
         {todos.map((todo, index) => (

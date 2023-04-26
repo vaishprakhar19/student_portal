@@ -17,7 +17,7 @@ const Form = ({ addTodo, clearAllFinished }) => {
 
   return (
     <div id="form-container">
-      <form onSubmit={handleSubmit}>
+      <form id="todo-form" onSubmit={handleSubmit}>
         <Input
           autoFocus
           inputProps={{ maxLength: 40 }}
@@ -28,13 +28,15 @@ const Form = ({ addTodo, clearAllFinished }) => {
             setFormValue({ ...formValue, content: e.target.value })
           }
         />
-        <IconButton variant="contained" color="primary" type="submit">
-          <AddTaskIcon></AddTaskIcon>
-        </IconButton>
-        <IconButton variant="contained" onClick={clearAllFinished}>
-          <RemoveDoneIcon color="primary"></RemoveDoneIcon>
-        </IconButton>
       </form>
+        <div>
+          <IconButton variant="contained" color="primary" type="submit">
+            <AddTaskIcon></AddTaskIcon>
+          </IconButton>
+          <IconButton variant="contained" onClick={clearAllFinished}>
+            <RemoveDoneIcon color="primary"></RemoveDoneIcon>
+          </IconButton>
+        </div>
     </div>
   );
 };
