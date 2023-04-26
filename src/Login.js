@@ -51,7 +51,7 @@ function Login(props) {
           <p>A platform where you can plan and manage all your daily tasks and schedules!</p>
           <button class="button" onClick={handlePopup}>Login</button>
         </div>
-        <img id="logo" src="https://github.com/vaishprakhar19/student_portal/blob/main/resources/birla-logo.png?raw=true" />
+        <img id="logo" src="https://cdn2.iconfinder.com/data/icons/education-flat-icons-part-1/218/Reading_Girl-512.png" />
       </div>
       <div className="blur blackish" hidden={!popup}></div>
 

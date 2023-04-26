@@ -1,6 +1,7 @@
 @media (max-width:768px){
   #introduction p{
     width: 70vw !important;
+   
   }
   #introduction h1{
     width: 70vw !important;
@@ -9,6 +10,7 @@
 
   #logo{
     width:70vw !important;
+     height: 70vw !important;
   }
   #emailHelp{
     margin:0px !important;
@@ -18,8 +20,9 @@
   }
 }
 #logo{
-  width:35vw;
-  margin:0px auto 40px auto;
+  width:30vw;
+  height:30vw;
+  margin:0px auto 20px auto;
 }
 
 #introduction{
@@ -66,7 +69,7 @@ background-color: rgba(0, 0, 0, 0.407);}
 
 #login-form {
   position:absolute;
-  top:12vh;
+  top:8vh;
   left:0px;
   right:0px;
   margin:auto;
