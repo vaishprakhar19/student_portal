@@ -56,7 +56,7 @@ function Login(props) {
 
 
       <form onSubmit={handleLogin} id="login-form" style={popup ? { transform: 'scale(1)' } : { transform: 'scale(0)' }}>
-        <h1>Student {{reg}?'Registeration':'Login'}</h1>
+        <h1>Student {reg?'Registeration':'Login'}</h1>
         <RxCross2 id="close-button" onClick={handlePopup} />
         <div className="form-group">
           <input required hidden={!reg} type="text" className=" textin" id="name" aria-describedby="namelHelp" placeholder="Enter Full Name" onChange={handleName} />
