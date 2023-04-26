@@ -55,8 +55,10 @@
   right:0;
   bottom:0;
   z-index: -1;
-  background-color: rgba(0, 0, 0, 0.407);
 }
+.dark{
+background-color: rgba(0, 0, 0, 0.407);}
+
 .blackish{
   z-index: 300;
  background-color: rgba(0, 0, 0, 0.623);
@@ -79,10 +81,10 @@
 #login-form h1{
   color:black;
 }
-/* #login-form .button{
-  background-color: black;
-  color:white;
-} */
+#login-form .button{
+  background-color: rgb(255, 255, 255);
+  color:rgb(0, 0, 0);
+}
 .textin{
 margin:20px auto 0px auto;
 width:100%;

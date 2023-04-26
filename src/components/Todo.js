@@ -9,6 +9,7 @@ const Todo = ({ todo, handleMark, handleDelete, index }) => {
       <IconButton
         onClick={() => handleMark(index)}
         style={{ color: "#50fa7b" }}
+        className="todo-icon"
       >
         {todo.isDone ? <Cancel></Cancel> : <Done></Done>}
       </IconButton>
@@ -27,6 +28,7 @@ const Todo = ({ todo, handleMark, handleDelete, index }) => {
       </Typography>
 
       <IconButton
+      className="todo-icon"
         onClick={() => handleDelete(index)}
         style={{ color: "#ff5555" }}
       >

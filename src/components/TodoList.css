@@ -51,3 +51,9 @@
   width: 100%;
   justify-content: center;
 }
+.todo-icon{
+  
+}
+.todo-icon:hover{
+  box-shadow: none;
+}

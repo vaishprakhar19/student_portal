@@ -29,10 +29,10 @@ const Form = ({ addTodo, clearAllFinished }) => {
           }
         />
         
-          <IconButton variant="contained" color="primary" type="submit">
+          <IconButton className="todo-icon" variant="contained" color="primary" type="submit">
             <AddTaskIcon></AddTaskIcon>
           </IconButton>
-          <IconButton variant="contained" onClick={clearAllFinished}>
+          <IconButton className="todo-icon" variant="contained" onClick={clearAllFinished}>
             <RemoveDoneIcon color="primary"></RemoveDoneIcon>
           </IconButton>
        

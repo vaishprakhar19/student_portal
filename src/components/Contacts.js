@@ -30,7 +30,8 @@ export default function Contacts() {
               <li>REGISTRAR: 9412996069</li>
             </ul>
             <h5>EMAIL ID</h5>
-            <ul><li>info@birlainstitute.co.in</li></ul></p>
+            <ul><li>info@birlainstitute.co.in</li></ul>
+            </p>
         </div>
       </div>
     </div>
