@@ -132,4 +132,8 @@
     z-index: 5;
     margin:0px auto;
   }
-
+  .home-items-cover{width:auto;
+    height: auto;
+    margin: 0px 12px;
+    padding: 0px;
+  }

@@ -74,7 +74,7 @@ Hop on and enjoy these handy features</p>
             </div>
           </Link>
 
-          <div hidden={props.daysch}>
+          <div className='home-items-cover' hidden={props.daysch}>
             <Link to='/messtime'>
               <div class="card wallet col-md-4" hidden={props.daysch}>
                 <div class="overlay"></div>
@@ -98,7 +98,7 @@ Hop on and enjoy these handy features</p>
             </Link>
           </div>
 
-          <div hidden={props.daysch}>
+          <div className='home-items-cover' hidden={props.daysch}>
             <Link to='/messmenu'>
               <div class="card wallet col-md-4">
                 <div class="overlay"></div>
