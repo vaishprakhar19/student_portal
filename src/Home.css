@@ -6,12 +6,28 @@
         margin: 30px auto!important;
     }
 }
+.home-background{
+  width:100%;
+  height:100%;
+  position:fixed;
+  top:0;
+  left: 0;
+  right:0;
+  bottom:0;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center 100%;
+  z-index: -2;
+  background-image: url('https://wallpaperforu.com/wp-content/uploads/2020/10/minimalist-wallpaper-2010231509427.jpg');
+}
 
 .main-heading{
     margin:0px auto!important;
-}
-.intro p{
+    color: rgb(255, 255, 255);
+  }
+  .intro p{
     margin:40px 0px;
+    color: rgb(255, 255, 255);
 }
 .row{
   justify-content: space-between;

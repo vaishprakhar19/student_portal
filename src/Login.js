@@ -44,14 +44,16 @@ function Login(props) {
   if (coursetemp === 'MCA') props.setStream('');
   return (
     <div className="page">
+      <div className='login-background'></div>
+      <div className='blur'></div>
       <div id="introduction">
-        <div className="intro-text" > <h1 className="display-2"></h1>
+        <div className="intro-text" > <h1 className="display-4">One destination<br/>for all your<br/>Schedules</h1>
           <p>A platform where you can plan and manage all your daily tasks and schedules!</p>
           <button class="button" onClick={handlePopup}>Login</button>
         </div>
         <img id="logo" src="https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png" />
       </div>
-      <div className="blur" hidden={!popup}></div>
+      <div className="blur blackish" hidden={!popup}></div>
 
 
 

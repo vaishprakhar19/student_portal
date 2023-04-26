@@ -9,28 +9,18 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
-.button {
-    padding: 0.8em 1.7em;
-    font-size: 12px;
-    text-transform: uppercase;
-    letter-spacing: 2.5px;
-    color: #000;
-    background-color: #fff;
-    border: none;
-    border-radius: 45px;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1) !important;
-    transition: all 0.3s ease 0s;
-    cursor: pointer;
-    outline: none;
-  }
-  
-  .button:hover {
-    background-color: #23c483;
-    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4) !important;
-    color: #fff ;
-    transform: translateY(-2px);
-  }
-  
-  .button:active {
-    transform: translateY(-1px);
-  }
+button {
+  background-color: #000000;
+  color: #ffffff;
+  border: 2px solid white;
+  border-radius: 8px;
+  width: 100px;
+  height: 45px;
+  transition: .3s;
+}
+
+button:hover {
+  background-color: #ffffff;
+  box-shadow: 0 0 0 5px #1818185f;
+  color: #000000;
+}
