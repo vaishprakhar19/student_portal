@@ -23,9 +23,9 @@ export default function Home(props) {
       <div class="jumbotron">
         <div class="container intro">
           <h1 class="display-3 main-heading"> Hello, {props.name.substring(0, props.name.indexOf(' '))}</h1>
-          <p>Let's begin your journey!!
-Here you can access all your daily schedules be it lecture, mess and various other timing...
-Hop on and enjoy these handy features</p>
+          <p>Let's begin your journey!
+Here you can access all your daily schedules be it lecture, mess and various other timing,
+Hop on and enjoy these handy features...</p>
         </div>
       </div>
 
