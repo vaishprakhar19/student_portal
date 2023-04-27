@@ -1,3 +1,19 @@
+@media screen and (max-width:768px) {
+    .nav-link {
+        margin: 10px 25px 0px 25px !important;
+    }
+    #navbarcollapse li .button{
+        margin: 20px 0px; 
+    }
+    .navbar{padding: 13px 12px !important;}
+    .logobg{
+        left: 4px !important;
+        top:8px !important;
+    }
+    .navbar .button{
+        margin-left: 8px !important;
+    }
+}
 .navbar {
     padding: 12px 40px 12px 40px;
     background-color: rgba(0, 8, 79, 0.774) !important;
@@ -11,15 +27,6 @@
     justify-content: flex-end;
 }
 
-@media screen and (max-width:768px) {
-    .nav-link {
-        margin: 10px 25px 0px 25px !important;
-    }
-    #navbarcollapse li .button{
-        margin: 20px 0px; 
-    }
-    
-}
 .navbar-brand{
     margin-left: 10px;
 font-weight: 700 !important;

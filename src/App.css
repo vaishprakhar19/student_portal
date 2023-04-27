@@ -1,4 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+@media screen and (max-width:768px){
+    .page-padding{
+      padding:0px 0px !important;
+    }
+    .table{
+      margin:0px 40px;
+    }
+    .table-heading{
+      margin-left:50px !important;
+    }
+}
+.table-heading{
+  margin-left: 10px;
+  color:black;
+  font-weight: 700;
+}
 .page{
     margin-top:100px;
 }

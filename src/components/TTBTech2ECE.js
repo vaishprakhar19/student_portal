@@ -4,7 +4,7 @@ export default function TTBTech2ECE() {
   return (
     <div className="page page-padding">
       <div className='table-background'></div>
-<h1>ECE 4th Sem</h1>
+<h1 className='table-heading'>ECE 4th Sem</h1>
 <div className='table-responsive-md'>
   <table class="table table-bordered">
     <thead>

@@ -3,7 +3,7 @@ import React from 'react'
 export default function MessTime() {
   return (
     <div className="page page-padding">
-      <h1>Mess Timing Boys</h1>
+      <h1  className='table-heading'>Mess Timing Boys</h1>
       <div className='table-responsive-md'>
         <table className='table table-bordered'>
           <thead>
@@ -59,7 +59,7 @@ export default function MessTime() {
             </tr>
          </tbody>
         </table >
-        <h1>Mess Timing Girls</h1>
+        <h1 className='table-heading'>Mess Timing Girls</h1>
         <table className='table table-bordered'>
           <tbody>
             <tr>
