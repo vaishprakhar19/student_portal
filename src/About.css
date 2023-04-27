@@ -1,18 +1,29 @@
 @media (max-width:768px) {
     #about {
-        display: flex;
-        flex-direction: column;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center;
+
+    }
+.about-bottom{
+    margin:auto !important;
+
+}
+    #about h1 {
+        margin-left: 0px !important;
+        text-align: center;
     }
 
     #about p {
-        width: 100% !important;
+        width: 80vw !important;
+        margin: 30px auto !important;
     }
 
     #about iframe {
         position: static !important;
         width: 70vw !important;
         height: 70vw !important;
-        margin: 30px 7vw !important;
+        margin-left: 15px !important;
     }
 
     .about-bottom {
@@ -20,22 +31,25 @@
     }
 
     #about-icon-container {
-        width: 100% !important;
-        font-size: 35px !important;
+        margin: auto !important;
+        width: 70vw !important;
+        font-size: 30px !important;
     }
 }
 
 #about {
-    height:99%;
+    height: 99%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
-#about h1{
+
+#about h1 {
     margin-left: 50px;
-    font-size:50px;
+    font-size: 50px;
     font-weight: 700;
 }
+
 #about p {
     text-align: left;
     margin-top: 30px;
@@ -60,24 +74,27 @@
 .about-icon {
     width: fit-content;
 }
-.about-bottom{
+
+.about-bottom {
     margin-left: 50px;
     margin-top: 30px;
 }
+
 #about-icon-container {
     display: flex;
     justify-content: space-between;
     font-size: 30px;
     width: 20vw;
 }
-.footer{
+
+.footer {
     margin-top: 50px;
-    width:100%;
+    width: 100%;
     height: auto;
     padding: 10px;
     color: white;
     background-color: rgb(78, 78, 78);
     font-size: 17px;
     text-align: center;
-    
+
 }
