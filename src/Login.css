@@ -48,7 +48,6 @@
 }
 #introduction .button{
   font-size: 17px;
-
 }
 
 .blur{
@@ -94,7 +93,6 @@ background-color: rgba(0, 0, 0, 0.407);}
 }
 #login-form .button:hover{
   box-shadow: 0 0 0 5px #0077ff6c;
-
 }
 .textin{
 margin:20px auto 0px auto;
@@ -140,9 +138,6 @@ option{background-color: rgb(196, 196, 196);
 }
 #checkbox{transition:0.3s;
 }
-#radio1,#radio2{
-  transition: 0.3s;
-}
 #close-button{
   position:absolute;
   right:20px;
@@ -150,6 +145,9 @@ option{background-color: rgb(196, 196, 196);
   font-size: 20px;
   color:black;
   cursor:pointer;
+}
+#reg-text{
+  margin:15px 0px 30px 10px;
 }
 .login-background{
   width:100%;

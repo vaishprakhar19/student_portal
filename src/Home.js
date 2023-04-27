@@ -76,7 +76,7 @@ Hop on and enjoy these handy features...</p>
             </div>
           </Link>
 
-          <div className='home-items-cover' hidden={props.daysch} data-aos="zoom-in-up" data-aos-duration="1500" data-aos-delay="600">
+          <div className='home-items-cover' data-aos="zoom-in-up" data-aos-duration="1500" data-aos-delay="600">
             <Link to='/messtime'>
               <div class="card wallet col-md-4" hidden={props.daysch}>
                 <div class="overlay"></div>
@@ -100,7 +100,7 @@ Hop on and enjoy these handy features...</p>
             </Link>
           </div>
 
-          <div className='home-items-cover' hidden={props.daysch} data-aos="zoom-in-up" data-aos-duration="1500" data-aos-delay="0">
+          <div className='home-items-cover' data-aos="zoom-in-up" data-aos-duration="1500" data-aos-delay="0">
             <Link to='/messmenu'>
               <div class="card wallet col-md-4">
                 <div class="overlay"></div>

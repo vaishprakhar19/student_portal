@@ -33,13 +33,6 @@ function Login(props) {
   const handleReg = () => {
     reg ? setReg(false) : setReg(true);
   }
-  const handleDaysch = () => {
-    props.setDaysch(true);
-  }
-  const handleHosteller = () => {
-    props.setDaysch(false);
-  }
-
 
   if (coursetemp === 'MCA') props.setStream('');
   return (
@@ -95,19 +88,7 @@ function Login(props) {
           <input type="checkbox" className="form-check-input" id="checkbox" />
           <label className="form-check-label" htmlFor="checkbox">Remember me</label>
         </div>
-        <div class="form-check radio" hidden={!reg}>
-          <input class="form-check-input" type="radio" name="exampleRadios" id="radio1" value="Hosteller" onChange={handleHosteller} />
-          <label class="form-check-label" htmlFor="exampleRadios1">
-            Hosteller
-          </label>
-        </div>
-        <div class="form-check radio" hidden={!reg}>
-          <input class="form-check-input" type="radio" name="exampleRadios" id="radio2" onChange={handleDaysch} value="DaySch" />
-          <label class="form-check-label" htmlFor="exampleRadios2">
-            Day Scholar
-          </label>
-        </div>
-        <p>{reg ? 'Have an account? ' : "Don't have an account? "}<Link onClick={handleReg}>{reg ? "Login Here." : "Register Now."}</Link></p>
+        <p id="reg-text">{reg ? 'Have an account? ' : "Don't have an account? "}<Link onClick={handleReg}>{reg ? "Login Here." : "Register Now."}</Link></p>
         <button className='button' type='submit'>Submit</button>
       </form>
     </div>
