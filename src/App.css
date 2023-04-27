@@ -9,7 +9,7 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
-button {
+.button {
   background-color: #f9cb55;
   color: #000000;
   border: none;
@@ -17,10 +17,13 @@ button {
   width: 100px;
   height: 45px;
   transition: .3s;
+  width:auto;
+  height: auto;
+  padding:7px 20px 10px 20px;
 }
 
-button:hover {
+.button:hover {
   background-color: #ffffff;
-  box-shadow: 0 0 0 5px #1818185f;
-  color: #000000;
+  box-shadow: 0 0 0 5px #ff77006c;
+  color: #e36600;
 }
