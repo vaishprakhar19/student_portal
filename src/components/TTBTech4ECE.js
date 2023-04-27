@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function TTBTech4ECE() {
   return (
-    <div className="page">
+    <div className="page page-padding">
 <h1>ECE 8th Sem</h1>
 <div className='table-responsive-md'>
     <table class="table table-bordered">

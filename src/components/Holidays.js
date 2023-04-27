@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Holidays() {
     return (
-        <div className="page">
+        <div className="page page-padding">
            <div className='table-responsive-md'>
                 <table class="table table-bordered">
                     <thead>

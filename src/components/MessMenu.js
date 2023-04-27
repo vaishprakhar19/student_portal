@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function MessMenu() {
   return (
-    <div className="page">
+    <div className="page page-padding">
 <h1>Mess Menu</h1>
 <div className='table-responsive-md'>
   <table class="table table-bordered">

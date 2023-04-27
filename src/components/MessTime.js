@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function MessTime() {
   return (
-    <div className="page">
+    <div className="page page-padding">
       <h1>Mess Timing Boys</h1>
       <div className='table-responsive-md'>
         <table className='table table-bordered'>

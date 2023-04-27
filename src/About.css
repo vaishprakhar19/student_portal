@@ -26,11 +26,9 @@
 }
 
 #about {
-    padding: 0px 40px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-
 }
 
 #about p {

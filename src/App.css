@@ -2,6 +2,9 @@
 .page{
     margin-top:100px;
 }
+.page-padding{
+  padding: 0px 50px;
+}
 body{
   overflow-x:hidden;
 }
