@@ -1,6 +1,9 @@
 @media (max-width:768px){
   .todo{
-    width: 75vw !important;
+    width: 60vw !important;
+  }
+  #todolist .contact-card{
+    min-width: 200px !important;
   }
   #todo-form input{
     width:40vw !important;
@@ -18,7 +21,8 @@
   flex-direction: column;
   gap: 10px;
   padding: 10px;
-  border-radius: 10px;
+  margin: auto;
+  width:fit-content;
 }
 
 .heading-space {
@@ -54,10 +58,10 @@
   width: 100%;
   justify-content: center;
 }
-
 .todo-icon:hover{
   box-shadow: none;
 }
 #todolist .contact-card{
-  width:max(fit-content,);
+  width:fit-content;
+  min-width: 500px;
 }
