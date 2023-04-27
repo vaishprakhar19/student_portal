@@ -60,7 +60,7 @@
 }
 
 .wallet {
-  --bg-color:rgb(255, 229, 101) ;
+  --bg-color:rgba(255, 228, 90, 0.949) ;
   --bg-color-light: #f0e7ff;
   --text-color-hover: #fff;
   --box-shadow-color: rgba(206, 178, 252, 0.48);
