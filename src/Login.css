@@ -19,7 +19,8 @@
     margin:0px !important;
   }
   #login-form{
-    width:85vw!important;
+    width:90vw!important;
+    padding:40px 25px !important;
   }
 }
 #logo{
@@ -48,6 +49,7 @@
 }
 #introduction .button{
   font-size: 17px;
+  margin-bottom: 10px;
 }
 
 .blur{
