@@ -20,7 +20,8 @@
   background-size: cover;
   background-position: center 100%;
   z-index: -2;
-  background-image: url('https://images-ext-2.discordapp.net/external/mv1EvNFNbw9RGpRpxrXw-9wIc6mER0RFrEnpoRI-jzo/%3Frik%3Dkqcx6KCtFt4SUA%26riu%3Dhttp%253a%252f%252fwallpapercave.com%252fwp%252fzm8bgId.jpg%26ehk%3DPZPI%252fcsULzbvTHRbs9KbDp%252fA9STp%252fI%252fAwjBSYrxn228%253d%26risl%3D%26pid%3DImgRaw%26r%3D0/https/th.bing.com/th/id/R.ce5ccdc62353378372bf81acc35aa5ba?width=970&height=606');
+  /* background-image: url('https://images-ext-2.discordapp.net/external/mv1EvNFNbw9RGpRpxrXw-9wIc6mER0RFrEnpoRI-jzo/%3Frik%3Dkqcx6KCtFt4SUA%26riu%3Dhttp%253a%252f%252fwallpapercave.com%252fwp%252fzm8bgId.jpg%26ehk%3DPZPI%252fcsULzbvTHRbs9KbDp%252fA9STp%252fI%252fAwjBSYrxn228%253d%26risl%3D%26pid%3DImgRaw%26r%3D0/https/th.bing.com/th/id/R.ce5ccdc62353378372bf81acc35aa5ba?width=970&height=606'); */
+  background: rgb(0, 0, 85);
 }
 
 .main-heading {

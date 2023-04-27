@@ -76,6 +76,7 @@ background-color: rgba(0, 0, 0, 0.407);}
   right:0px;
   margin:auto;
   background:linear-gradient(90deg,rgb(161, 161, 161),white) ;
+  /* background:rgb(255, 250, 95) ; */
   padding: 40px;
   width: min(65vw,30em);
   border-radius:20px;

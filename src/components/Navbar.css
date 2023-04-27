@@ -1,9 +1,9 @@
 .navbar {
     padding: 12px 40px 12px 40px;
-    background-color: rgba(35, 35, 35, 0.119) !important;
+    background-color: rgba(0, 8, 79, 0.774) !important;
     backdrop-filter: blur(10px);
     z-index: 200;
-    border-bottom:2px solid rgba(0, 0, 0, 0.19);
+    border-bottom:2px solid rgba(70, 70, 70, 0.19);
 
 }
 
