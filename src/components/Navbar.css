@@ -16,10 +16,10 @@
 }
 .navbar {
     padding: 12px 40px 12px 40px;
-    background-color: rgba(0, 8, 79, 0.774) !important;
+    background-color: rgba(7, 0, 98, 0.578) !important;
     backdrop-filter: blur(10px);
     z-index: 200;
-    border-bottom:1px solid rgba(248, 255, 51, 0.713);
+    border-bottom:1px solid rgb(255, 222, 58) ;
 
 }
 
@@ -30,15 +30,19 @@
 .navbar-brand{
     margin-left: 10px;
 font-weight: 700 !important;
-color:rgb(255, 209, 56) ;
+color:rgb(255, 222, 58) ;
 }
 .navbar-brand:hover{
-    color:rgb(255, 209, 56) ;
+    color:rgb(255, 222, 58) ;
 }
-.navbar-nav {
+.navbar-brand:active{
+    color:rgb(255, 222, 58) ;
+}
+.navbar-nav{
     display: flex;
     flex-direction: column;
 }
+
 a{text-decoration: none;}
 
 .nav-link {
@@ -49,7 +53,7 @@ a{text-decoration: none;}
     margin: 0px 20px 0px 0px;
 }
 .nav-link:hover {
-    color: rgb(255, 235, 57);
+    color: rgb(255, 222, 58) ;
 }
 #top-logo{
     width:40px;

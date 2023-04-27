@@ -38,13 +38,13 @@
 
 .main-heading {
   margin: 0px auto !important;
-  color: rgb(255, 211, 52);
+  color: rgb(255, 222, 58) ;
   font-size: 70px;
 }
 
 .intro p {
   margin: 40px 0px;
-  color: rgb(255, 211, 52);
+  color: rgb(255, 222, 58) ;
   font-size: 30px;
 }
 
@@ -60,7 +60,7 @@
 }
 
 .wallet {
-  --bg-color: #ffd04d;
+  --bg-color:rgb(255, 222, 58) ;
   --bg-color-light: #f0e7ff;
   --text-color-hover: #fff;
   --box-shadow-color: rgba(206, 178, 252, 0.48);

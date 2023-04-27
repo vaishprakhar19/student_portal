@@ -43,7 +43,7 @@ body{
   background-size: cover;
   background-position: center 100%;
   z-index: -2;
-  background: linear-gradient(90deg,rgb(255, 255, 255),rgb(179, 179, 179))
+  background:linear-gradient(90deg,white,rgb(150, 150, 150)) ;
 }
 .table{
   border: #000000;
@@ -56,8 +56,8 @@ body{
 
 
 .button {
-  background-color: #f9cb55;
-  color: #14005d;
+  background-color: rgb(255, 222, 58) ;
+  color: rgb(7, 0, 98);
   border: none;
   border-radius: 8px;
   width: 100px;
@@ -69,7 +69,7 @@ body{
 }
 
 .button:hover {
-  background-color: #00085b;
+  background-color: rgb(7, 0, 98);
   color: #ffffff;
-  box-shadow: 0 0 0 3px rgba(255, 230, 0, 0.654);
+  box-shadow: 0 0 0 3px rgba(255, 230, 0, 0.665);
 }
