@@ -32,7 +32,6 @@ color:rgb(255, 209, 56) ;
     display: flex;
     flex-direction: column;
 }
-.navbar-toggler{color:rgb(247, 255, 20);}
 a{text-decoration: none;}
 
 .nav-link {

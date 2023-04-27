@@ -11,7 +11,7 @@ export default function Navbar(props) {
   return (
     <>
     <div>
-      <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <nav className="navbar navbar-expand-md navbar-light fixed-top bg-dark">
       <div>
         <div className='logobg'></div>
         <img id="top-logo" src='https://github.com/vaishprakhar19/student_portal/blob/main/resources/birla-logo.png?raw=true'/>
