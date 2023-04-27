@@ -3,6 +3,8 @@ import React from 'react'
 export default function Holidays() {
     return (
         <div className="page page-padding">
+            <div className='table-background'></div>
+            <h1>Holiday Calender</h1>
            <div className='table-responsive-md'>
                 <table class="table table-bordered">
                     <thead>

@@ -4,9 +4,7 @@ import './Contact.css';
 export default function Contacts() {
   return (
     <div className="page">
-
-
-
+      <div className='table-background'></div>
       <div class="contact-card">
         <div class="contact-card-details">
           <p class="contact-text-title">Contacts</p>

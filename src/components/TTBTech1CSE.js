@@ -16,19 +16,17 @@ export default function TTBTech1CSE() {
               <th scope="col">THURSADY</th>
               <th scope="col">FRIDAY</th>
               <th scope="col">SATURDAY</th>
-  
             </tr>
           </thead>
           <tbody>
             <tr>
             <th scope="row">9:30-10:30</th>
               <td>ENGG. CHEMISTRY<br />(DR. DEVENDRA MISHRA)</td>
-              <td>BASIC ELECTRONICS ENGG.(DR. HEM CHANDRA PANDEY)</td>
+              <td>BASIC ELECTRONICS ENGG. (DR. HEM CHANDRA PANDEY)</td>
               <td>MECHANICAL ENGG.<br />(MR. KUBER MISHRA)</td>
-              <td>BASIC ELECTRONICS ENGG.(DR. HEM CHANDRA PANDEY)</td>
-              <td>BASIC ELETRONICS ENGG.(DR. HEM CHANDRA PANDEY)</td>
+              <td>BASIC ELECTRONICS ENGG. (DR. HEM CHANDRA PANDEY)</td>
+              <td>BASIC ELETRONICS ENGG. (DR. HEM CHANDRA PANDEY)</td>
               <td>ENGG. CHEMISTRY<br />(DR. DEVENDRA MISHRA)</td>
-  
             </tr>
             <tr>
               <th scope="row">10:30-11:30</th>
@@ -36,14 +34,14 @@ export default function TTBTech1CSE() {
               <td>MATHEMATICS 2<br />(DR.SHILPI BISHT)</td>
               <td>ENGG. CHEMISTRY<br />(DR. DEVENDRA MISHRA)</td>
               <td>MECHANICAL ENGG.<br />(MR. KUBER MISHRA)</td>
-              <td>MATHEMATICS 2(DR.SHILPI BISHT)</td>
+              <td>MATHEMATICS 2 (DR.SHILPI BISHT)</td>
               <td>MECHANICAL ENGG.<br />(MR. KUBER MISHRA)</td>
             </tr>
             <tr>
               <th scope="row">11:30-12:30</th>
-              <td>MATHEMATICS 2(DR.SHILPI BISHT)</td>
+              <td>MATHEMATICS 2 (DR.SHILPI BISHT)</td>
               <td>WORKSHOP PRACTICE<br />(MR.HIMANSHU)</td>
-              <td>BASIC ELECTRONICS ENGG.(DR. HEM CHANDRA PANDEY)</td>
+              <td>BASIC ELECTRONICS ENGG. (DR. HEM CHANDRA PANDEY)</td>
               <td>ENGG. CHEMISTRY<br />(DR. DEVENDRA MISHRA)</td>
               <td>ENTREPENURSHIP AND INNOVATION<br/>(MR.NITIN)</td>
               <td>EMERGING TREND<br/>(DR. HC PANDEY)</td>
@@ -70,8 +68,8 @@ export default function TTBTech1CSE() {
               <th scope="row">BREAK</th>
               <td>CHEMISTRY LAB/BE LAB<br/>(DR. DEVENDRA/DR. HEM)</td>
               <td>CHEMISTRY LAB/BE LAB<br />(DR. DEVENDRA/DR. HEM)</td>
-              <td>MATHEMATICS 2(DR.SHILPI BISHT)</td>
-              <td>MECHANICAL LAB/WORKSHOP(MR. KUBER /MR. HIMANSHU)</td>
+              <td>MATHEMATICS 2 (DR.SHILPI BISHT)</td>
+              <td>MECHANICAL LAB/WORKSHOP (MR. KUBER /MR. HIMANSHU)</td>
               <td>BE LAB/MECHANICAL (DR.HEM/MR KUBER)</td>
               <td></td>
             </tr>

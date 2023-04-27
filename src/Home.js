@@ -19,7 +19,7 @@ export default function Home(props) {
   return (
     <div className="page" id="home">
       <div className="home-background"></div>
-      <div className='blur'></div>
+      <div className='blur dark'></div>
       <div class="jumbotron">
         <div class="container intro">
           <h1 class="display-3 main-heading"> Hello, {props.name.substring(0, props.name.indexOf(' '))}</h1>

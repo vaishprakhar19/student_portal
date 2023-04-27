@@ -8,6 +8,7 @@ import './About.css'
 export function About() {
   return (
     <div id='about' className='page'>
+      <div className='table-background'></div>
       <div>
         <div className='about-intro'>
           <h1>About Us</h1>

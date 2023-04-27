@@ -3,6 +3,7 @@ import React from 'react'
 export default function TTMCA1() {
   return (
     <div className="page page-padding">
+      <div className='table-background'></div>
 <h1>MCA 2nd Sem</h1>
 <div className='table-responsive-md'>
   <table className='table table-bordered'>

@@ -3,6 +3,7 @@ import React from 'react'
 export default function TTBTech2CSE() {
   return (
     <div className="page page-padding">
+        <div className='table-background'></div>
 <h1>CSE 4th Sem</h1>
 <div className='table-responsive-md'>
     <table class="table table-bordered">
