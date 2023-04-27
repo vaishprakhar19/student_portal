@@ -30,11 +30,15 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
-
+#about h1{
+    margin-left: 50px;
+}
 #about p {
     text-align: left;
     margin-top: 30px;
+    margin-left: 50px;
     width: 50%;
+    font-size: 20px;
 }
 
 #about iframe {
@@ -53,10 +57,23 @@
 .about-icon {
     width: fit-content;
 }
-
+.about-bottom{
+    margin-left: 50px;
+}
 #about-icon-container {
     display: flex;
     justify-content: space-between;
     font-size: 40px;
     width: 35vw;
+}
+.footer{
+    margin-top: 50px;
+    width:100%;
+    height: auto;
+    padding: 10px;
+    color: white;
+    background-color: rgb(78, 78, 78);
+    font-size: 17px;
+    text-align: center;
+    
 }
