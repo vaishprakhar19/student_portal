@@ -16,7 +16,7 @@
 }
 .navbar {
     padding: 12px 40px 12px 40px;
-    background-color: rgba(7, 0, 98, 0.578) !important;
+    background-color: rgba(4, 0, 61, 0.756) !important;
     backdrop-filter: blur(10px);
     z-index: 200;
     border-bottom:1px solid rgb(255, 222, 58) ;

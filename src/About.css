@@ -5,10 +5,12 @@
         align-items: center;
 
     }
-.about-bottom{
-    margin:auto !important;
 
-}
+    .about-bottom {
+        margin: auto !important;
+
+    }
+
     #about h1 {
         margin-left: 0px !important;
         text-align: center;
@@ -21,9 +23,8 @@
 
     #about iframe {
         position: static !important;
-        width: 70vw !important;
-        height: 70vw !important;
-        margin-left: 15px !important;
+        width: 85vw !important;
+        height: 85vw !important;
     }
 
     .about-bottom {
