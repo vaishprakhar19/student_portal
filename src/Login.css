@@ -1,4 +1,7 @@
 @media (max-width:768px){
+  #introduction{
+    padding-top:0px !important;
+  }
   #introduction p{
     width: 70vw !important;
    

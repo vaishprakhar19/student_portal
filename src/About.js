@@ -7,7 +7,7 @@ import { FaFacebook } from 'react-icons/fa';
 import './About.css'
 export function About() {
   return (
-    <div id='about' className='page'>
+    <div id='about' className='page page-padding'>
       <div>
         <div className='about-intro'>
           <h2>About Us</h2>
