@@ -44,6 +44,7 @@ function Login(props) {
           <div data-aos="fade-down"data-aos-duration="1500">
             <h1 className="display-4">One destination<br/>for all your<br/>Schedules</h1>
             <p>A platform where you can plan and manage all your daily tasks and schedules!</p>
+<p id="swipe">Swipe Down &#8595;</p>
           </div>
           <button class="button" data-aos="fade-up" data-aos-duration="1500" onClick={handlePopup}>Login</button>
         </div>
