@@ -1,6 +1,6 @@
 import './App.css';
 import Navbar from './components/Navbar';
-import React, { useState} from "react";
+import React, { useState, useEffect} from "react";
 import {About} from './About';
 import Home from './Home';
 import Holidays from './components/Holidays';
@@ -18,6 +18,8 @@ import TTBTech4ECE from './components/TTBTech4ECE';
 import TTMCA1 from './components/TTMCA1';
 import TTMCA2 from './components/TTMCA2';
 import {Login} from './Login';
+import AOS from "aos";
+import "aos/dist/aos.css";
 import {
   BrowserRouter as Router,
   Routes,
@@ -33,8 +35,13 @@ function App() {
   const [stream, setStream] = useState('');
   const [login, setLogin] = useState(false);
   const [daysch, setDaysch] = useState(false);
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   
   return (
+    
     <Router>
         <Navbar login={login} setLogin={setLogin}/>
         <Routes>

@@ -32,7 +32,7 @@ Hop on and enjoy these handy features</p>
       <div>
         <div class="row">
 
-          <a href={link} target="_blank">
+          <a href={link} target="_blank" data-aos="zoom-in-up" data-aos-duration="1500" data-aos-delay="0">
             <div class="card wallet col-md-4">
               <div class="overlay"></div>
               <div class="circle">
@@ -54,7 +54,7 @@ Hop on and enjoy these handy features</p>
             </div>
           </a>
 
-          <Link to={'/tt'+props.course+props.year+props.stream}>
+          <Link to={'/tt'+props.course+props.year+props.stream} data-aos="zoom-in-up" data-aos-duration="1500" data-aos-delay="300">
             <div class="card wallet col-md-4">
               <div class="overlay"></div>
               <div class="circle">
@@ -76,7 +76,7 @@ Hop on and enjoy these handy features</p>
             </div>
           </Link>
 
-          <div className='home-items-cover' hidden={props.daysch}>
+          <div className='home-items-cover' hidden={props.daysch} data-aos="zoom-in-up" data-aos-duration="1500" data-aos-delay="600">
             <Link to='/messtime'>
               <div class="card wallet col-md-4" hidden={props.daysch}>
                 <div class="overlay"></div>
@@ -100,7 +100,7 @@ Hop on and enjoy these handy features</p>
             </Link>
           </div>
 
-          <div className='home-items-cover' hidden={props.daysch}>
+          <div className='home-items-cover' hidden={props.daysch} data-aos="zoom-in-up" data-aos-duration="1500" data-aos-delay="0">
             <Link to='/messmenu'>
               <div class="card wallet col-md-4">
                 <div class="overlay"></div>
@@ -124,7 +124,7 @@ Hop on and enjoy these handy features</p>
             </Link>
           </div>
 
-          <Link to='/holidays'>
+          <Link to='/holidays' data-aos="zoom-in-up" data-aos-duration="1500" data-aos-delay="300">
             <div class="card wallet col-md-4">
               <div class="overlay"></div>
               <div class="circle">
@@ -146,7 +146,7 @@ Hop on and enjoy these handy features</p>
             </div>
           </Link>
 
-          <Link to='/todolist'>
+          <Link to='/todolist' data-aos="zoom-in-up" data-aos-duration="1500" data-aos-delay="600">
             <div class="card wallet col-md-4">
               <div class="overlay"></div>
               <div class="circle">
@@ -168,7 +168,7 @@ Hop on and enjoy these handy features</p>
             </div>
           </Link>
 
-          <Link to='/contacts'>
+          <Link to='/contacts' data-aos="zoom-in-up" data-aos-duration="1500" data-aos-delay="0">
             <div class="card wallet col-md-4">
               <div class="overlay"></div>
               <div class="circle">

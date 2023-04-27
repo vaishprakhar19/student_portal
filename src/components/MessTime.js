@@ -7,7 +7,8 @@ export default function MessTime() {
       <div className='table-responsive-md'>
         <table className='table table-bordered'>
           <thead>
-            <tr>
+            <tr >
+              <th scope="col"></th>
               <th scope="col">BREAKFAST</th>
               <th scope="col">LUNCH</th>
               <th scope="col">TEA</th>
@@ -62,6 +63,7 @@ export default function MessTime() {
         <table className='table table-bordered'>
           <tbody>
             <tr>
+            <th scope="col"></th>
               <th scope="col" >BREAKFAST</th>
               <th scope="col">LUNCH</th>
               <th scope="col">TEA</th>
