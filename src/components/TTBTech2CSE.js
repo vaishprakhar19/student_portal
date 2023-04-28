@@ -58,19 +58,18 @@ export default function TTBTech2CSE() {
             </tr>
             <tr>
                 <th scope="row">2:00 - 3:00</th>
-                <td>Computer Organisation LAB/ Software Engineering LAB                       (Dr. Sandesh Tripathi/)</td>
-                <td>Computer Organisation LAB/ Software Engineering LAB                       (Dr. Sandesh Tripathi/)</td>
-                <td>Mathematics III                (Ms.Neema)</td>
-                <td>Automata             (Mr. Pankaj Nainwal)</td>
+                <td rowSpan={2}>Computer Organisation LAB/ Software Engineering LAB                       (Dr. Sandesh Tripathi/)</td>
+                <td rowSpan={2}>SE Lab<br/>(Ms. Neema)</td>
+                <td>Mathematics III<br/>(Ms.Neema)</td>
+                <td>Automata<br/>(Mr. Pankaj Nainwal)</td>
                 <td>Dbms Lab                                      (Mr.Nitin)</td>
-                <td></td>
+                <td rowSpan={2}></td>
             </tr>
             <tr>
                 <th scope="row">3:00 - 4:00</th>
-                <td></td>
-                <td></td>
-                <td>Uhv                                        (Mr.Nitin)</td>
-                <td>Software Engineering                                         ()</td>
+                <td>Uhv (Mr.Nitin)</td>
+                <td>Software Engineering ()</td>
+                <td>Software Engineering ()</td>
             </tr>
         </tbody>
     </table>
