@@ -41,7 +41,7 @@ function App() {
   
   return (
     
-    <Router>
+    <Router basename="/student_portal">
         <Navbar login={login} setLogin={setLogin}/>
         <Routes>
           <Route exact path='/student_portal' element={<Login setCourse={setCourse} setYear={setYear} setStream={setStream} setName={setName} setLogin={setLogin}/>}/>
