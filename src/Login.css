@@ -57,7 +57,9 @@
   font-size: 17px;
   margin: 30px 0px 30px 0px;
 }
-
+#login{
+  overflow: hidden;
+}
 .blur{
   width:100vw;
   height:100vh;

@@ -36,7 +36,7 @@ function Login(props) {
 
   if (coursetemp === 'MCA') props.setStream('');
   return (
-    <div className="page">
+    <div className="page" id="login">
       <div className='login-background'></div>
       <div className='blur dark'></div>
       <div id="introduction">
