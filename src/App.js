@@ -44,6 +44,7 @@ function App() {
     <Router>
         <Navbar login={login} setLogin={setLogin}/>
         <Routes>
+          <Route exact path='/student_portal' element={<Login setCourse={setCourse} setYear={setYear} setStream={setStream} setName={setName} setLogin={setLogin}/>}/>
           <Route path='/login' element={<Login setCourse={setCourse} setYear={setYear} setStream={setStream} setName={setName} setLogin={setLogin}/>}/>
           <Route path='/home' element={<Home name={name} course={course} year={year} stream={stream}/>} />
           <Route path='/about' element={<About />} />
