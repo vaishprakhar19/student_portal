@@ -34,6 +34,7 @@ function App() {
   const [year, setYear] = useState('');
   const [stream, setStream] = useState('');
   const [login, setLogin] = useState(false);
+  
   useEffect(() => {
     AOS.init();
     AOS.refresh();
