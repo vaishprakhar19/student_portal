@@ -63,7 +63,7 @@ function Login(props) {
             <p>A platform where you can plan and manage all your daily tasks and schedules!</p>
 <p id="swipe">Swipe Down &#8595;</p>
           </div>
-          <button class="button" data-aos="fade-up" data-aos-duration="1500" onClick={handlePopup}>Login</button>
+          <button className="button" data-aos="fade-up" data-aos-duration="1500" onClick={handlePopup}>Login</button>
         </div>
         <img id="logo" data-aos="fade-left" data-aos-duration="1500" src="https://cdn2.iconfinder.com/data/icons/education-flat-icons-part-1/218/Reading_Girl-512.png" />
       </div>

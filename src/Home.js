@@ -20,9 +20,9 @@ export default function Home(props) {
     <div className="page" id="home">
       <div className="home-background"></div>
       <div className='blur dark'></div>
-      <div class="jumbotron">
-        <div class="container intro">
-          <h1 class="display-3 main-heading"> Hello, {props.name.substring(0, props.name.indexOf(' '))}</h1>
+      <div className="jumbotron">
+        <div className="container intro">
+          <h1 className="display-3 main-heading"> Hello, {props.name.substring(0, props.name.indexOf(' '))}</h1>
           <p>Let's begin your journey!
 Here you can access all your daily schedules be it lecture, mess and various other timing,
 Hop on and enjoy these handy features...</p>
@@ -30,13 +30,13 @@ Hop on and enjoy these handy features...</p>
       </div>
 
       <div>
-        <div class="row">
+        <div className="row">
 
           <a href={link} target="_blank" data-aos="zoom-in-up" data-aos-duration="1500" data-aos-delay="0">
-            <div class="card wallet col-md-4">
-              <div class="overlay"></div>
-              <div class="circle">
-                <div class="home-img"><img src='https://github.com/vaishprakhar19/student_portal/blob/main/resources/syllabus.jpg?raw=true' /></div>
+            <div className="card wallet col-md-4">
+              <div className="overlay"></div>
+              <div className="circle">
+                <div className="home-img"><img src='https://github.com/vaishprakhar19/student_portal/blob/main/resources/syllabus.jpg?raw=true' /></div>
                 <defs></defs>
                 <g transform="translate(23.000000, 29.500000)" fill-rule="evenodd" fill="none" stroke-width="1" stroke="none" id="icon">
                   <rect rx="4.70247832" height="21.8788565" width="9.40495664" y="26.0333433" x="67.8357511" fill="#AC8BE9" id="Rectangle-3"></rect>
@@ -55,10 +55,10 @@ Hop on and enjoy these handy features...</p>
           </a>
 
           <Link to={'/tt'+props.course+props.year+props.stream} data-aos="zoom-in-up" data-aos-duration="1500" data-aos-delay="300">
-            <div class="card wallet col-md-4">
-              <div class="overlay"></div>
-              <div class="circle">
-                <div class="home-img"><img src='https://github.com/vaishprakhar19/student_portal/blob/main/resources/timetable.jpg?raw=true' /></div>
+            <div className="card wallet col-md-4">
+              <div className="overlay"></div>
+              <div className="circle">
+                <div className="home-img"><img src='https://github.com/vaishprakhar19/student_portal/blob/main/resources/timetable.jpg?raw=true' /></div>
                 <defs></defs>
                 <g transform="translate(23.000000, 29.500000)" fill-rule="evenodd" fill="none" stroke-width="1" stroke="none" id="icon">
                   <rect rx="4.70247832" height="21.8788565" width="9.40495664" y="26.0333433" x="67.8357511" fill="#AC8BE9" id="Rectangle-3"></rect>
@@ -71,6 +71,7 @@ Hop on and enjoy these handy features...</p>
                   <ellipse ry="2.23319575" rx="2.20116007" cy="33.0919007" cx="65.8346965" fill="#FFFFFF" id="Oval">
                   </ellipse>
                 </g>
+                
               </div>
               <p>Time Table</p>
             </div>
@@ -78,10 +79,10 @@ Hop on and enjoy these handy features...</p>
 
           <div className='home-items-cover' data-aos="zoom-in-up" data-aos-duration="1500" data-aos-delay="600">
             <Link to='/messtime'>
-              <div class="card wallet col-md-4" hidden={props.daysch}>
-                <div class="overlay"></div>
-                <div class="circle">
-                  <div class="home-img"><img src='https://github.com/vaishprakhar19/student_portal/blob/main/resources/messtime.jpg?raw=true' /></div>
+              <div className="card wallet col-md-4" hidden={props.daysch}>
+                <div className="overlay"></div>
+                <div className="circle">
+                  <div className="home-img"><img src='https://github.com/vaishprakhar19/student_portal/blob/main/resources/messtime.jpg?raw=true' /></div>
                   <defs></defs>
                   <g transform="translate(23.000000, 29.500000)" fill-rule="evenodd" fill="none" stroke-width="1" stroke="none" id="icon">
                     <rect rx="4.70247832" height="21.8788565" width="9.40495664" y="26.0333433" x="67.8357511" fill="#AC8BE9" id="Rectangle-3"></rect>
@@ -102,10 +103,10 @@ Hop on and enjoy these handy features...</p>
 
           <div className='home-items-cover' data-aos="zoom-in-up" data-aos-duration="1500" data-aos-delay="0">
             <Link to='/messmenu'>
-              <div class="card wallet col-md-4">
-                <div class="overlay"></div>
-                <div class="circle">
-                  <div class="home-img"><img src='https://github.com/vaishprakhar19/student_portal/blob/main/resources/mess.jpg?raw=true' /></div>
+              <div className="card wallet col-md-4">
+                <div className="overlay"></div>
+                <div className="circle">
+                  <div className="home-img"><img src='https://github.com/vaishprakhar19/student_portal/blob/main/resources/mess.jpg?raw=true' /></div>
                   <defs></defs>
                   <g transform="translate(23.000000, 29.500000)" fill-rule="evenodd" fill="none" stroke-width="1" stroke="none" id="icon">
                     <rect rx="4.70247832" height="21.8788565" width="9.40495664" y="26.0333433" x="67.8357511" fill="#AC8BE9" id="Rectangle-3"></rect>
@@ -125,10 +126,10 @@ Hop on and enjoy these handy features...</p>
           </div>
 
           <Link to='/holidays' data-aos="zoom-in-up" data-aos-duration="1500" data-aos-delay="300">
-            <div class="card wallet col-md-4">
-              <div class="overlay"></div>
-              <div class="circle">
-                <div class="home-img"><img src='https://github.com/vaishprakhar19/student_portal/blob/main/resources/holiday.jpg?raw=true' /></div>
+            <div className="card wallet col-md-4">
+              <div className="overlay"></div>
+              <div className="circle">
+                <div className="home-img"><img src='https://github.com/vaishprakhar19/student_portal/blob/main/resources/holiday.jpg?raw=true' /></div>
                 <defs></defs>
                 <g transform="translate(23.000000, 29.500000)" fill-rule="evenodd" fill="none" stroke-width="1" stroke="none" id="icon">
                   <rect rx="4.70247832" height="21.8788565" width="9.40495664" y="26.0333433" x="67.8357511" fill="#AC8BE9" id="Rectangle-3"></rect>
@@ -147,10 +148,10 @@ Hop on and enjoy these handy features...</p>
           </Link>
 
           <Link to='/todolist' data-aos="zoom-in-up" data-aos-duration="1500" data-aos-delay="600">
-            <div class="card wallet col-md-4">
-              <div class="overlay"></div>
-              <div class="circle">
-                <div class="home-img"><img src='https://github.com/vaishprakhar19/student_portal/blob/main/resources/todo.jpg?raw=true' /></div>
+            <div className="card wallet col-md-4">
+              <div className="overlay"></div>
+              <div className="circle">
+                <div className="home-img"><img src='https://github.com/vaishprakhar19/student_portal/blob/main/resources/todo.jpg?raw=true' /></div>
                 <defs></defs>
                 <g transform="translate(23.000000, 29.500000)" fill-rule="evenodd" fill="none" stroke-width="1" stroke="none" id="icon">
                   <rect rx="4.70247832" height="21.8788565" width="9.40495664" y="26.0333433" x="67.8357511" fill="#AC8BE9" id="Rectangle-3"></rect>
@@ -169,10 +170,10 @@ Hop on and enjoy these handy features...</p>
           </Link>
 
           <Link to='/contacts' data-aos="zoom-in-up" data-aos-duration="1500" data-aos-delay="0">
-            <div class="card wallet col-md-4">
-              <div class="overlay"></div>
-              <div class="circle">
-                <div class="home-img"><img src='https://github.com/vaishprakhar19/student_portal/blob/main/resources/contact.jpg?raw=true' /></div>
+            <div className="card wallet col-md-4">
+              <div className="overlay"></div>
+              <div className="circle">
+                <div className="home-img"><img src='https://github.com/vaishprakhar19/student_portal/blob/main/resources/contact.jpg?raw=true' /></div>
                 <defs></defs>
                 <g transform="translate(23.000000, 29.500000)" fill-rule="evenodd" fill="none" stroke-width="1" stroke="none" id="icon">
                   <rect rx="4.70247832" height="21.8788565" width="9.40495664" y="26.0333433" x="67.8357511" fill="#AC8BE9" id="Rectangle-3"></rect>

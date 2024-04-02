@@ -6,7 +6,7 @@ export default function TTBTech3CSE() {
         <div className='table-background'></div>
 <h1 className='table-heading'>CSE 6th Sem</h1>
 <div className='table-responsive-md'>
-    <table class="table table-bordered">
+    <table className="table table-bordered">
         <thead>
             <tr>
                 <th scope="col">DAY/TIME</th>

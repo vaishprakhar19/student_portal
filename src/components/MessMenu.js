@@ -5,7 +5,7 @@ export default function MessMenu() {
     <div className="page page-padding">
 <h1 className='table-heading'>Mess Menu</h1>
 <div className='table-responsive-md'>
-  <table class="table table-bordered">
+  <table className="table table-bordered">
     <thead>
       <tr>
         <th scope="col">Day</th>

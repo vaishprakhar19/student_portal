@@ -6,7 +6,7 @@ export default function Holidays() {
             <div className='table-background'></div>
             <h1 className='table-heading'>Holiday Calender</h1>
            <div className='table-responsive-md'>
-                <table class="table table-bordered">
+                <table className="table table-bordered">
                     <thead>
                         <tr>
                             <th scope="col">S NO.</th>

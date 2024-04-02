@@ -5,10 +5,10 @@ export default function Contacts() {
   return (
     <div className="page">
       <div className='table-background'></div>
-      <div class="contact-card">
-        <div class="contact-card-details">
-          <p class="contact-text-title">Contacts</p>
-          <p class="contact-text-body">
+      <div className="contact-card">
+        <div className="contact-card-details">
+          <p className="contact-text-title">Contacts</p>
+          <p className="contact-text-body">
             <h5>CHIEF HOSTEL WARDEN (BOYS)</h5>
             <ul>
               <li>DR.SANDESH TRIPATHI: +91 9415364502 </li>
@@ -32,14 +32,14 @@ export default function Contacts() {
           </p>
 
 
-          <div class='fb-form'>
-            <form action='https://formbold.com/s/oz8mY' method='POST' class='form-group'>
+          <div className='fb-form'>
+            <form action='https://formbold.com/s/oz8mY' method='POST' className='form-group'>
               <h2>Tell us what you think</h2>
-              <input class='form-control' placeholder='Name' type='text' />
-              <input class='form-control' placeholder='Email' type='text' />
-              <textarea class='form-control' id='fb-comment' name='' placeholder='Tell us what you think'></textarea>
+              <input className='form-control' placeholder='Name' type='text' />
+              <input className='form-control' placeholder='Email' type='text' />
+              <textarea className='form-control' id='fb-comment' name='' placeholder='Tell us what you think'></textarea>
               <br />
-              <input class='form-control btn btn-primary' type='submit' />
+              <input className='form-control btn btn-primary' type='submit' />
             </form>
           </div>
         </div>
