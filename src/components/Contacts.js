@@ -11,24 +11,25 @@ export default function Contacts() {
           <p className="contact-text-body">
             <h5>CHIEF HOSTEL WARDEN (BOYS)</h5>
             <ul>
-              <li>DR.SANDESH TRIPATHI: +91 9415364502 </li>
-              <li>MR.NEERAJ SINGH BISHT: +91 9415171251 </li>
-              <li>MR.ABHAY KUMAR SHARMA: +91 9411199555</li>
+              <li>DR.SANDESH TRIPATHI: 9415364502 </li>
+              <li>MR.NEERAJ SINGH BISHT: 9415171251 </li>
+              <li>MR.ABHAY KUMAR SHARMA: 9411199555</li>
             </ul>
             <h5>
               CHIEF HOSTEL WARDEN (GIRLS)
             </h5>
             <ul>
-              <li>DR.SHILPI BISHT: +91 9458173450</li></ul>
+              <li>DR.SHILPI BISHT: 94581 73450</li></ul>
             <h5> ADDITIONAL CONTACTS
             </h5>
             <ul>
-              <li>GATE CONTACT NUMBER: +91 945811468
+              <li>GATE CONTACT NUMBER: 945811468
               </li>
-              <li>REGISTRAR: +91 9412996069</li>
+              <li>REGISTRAR: 9412996069</li>
             </ul>
             <h5>EMAIL ID</h5>
             <ul><li>info@birlainstitute.co.in</li></ul>
+<<<<<<< HEAD
           </p>
 
 
@@ -42,9 +43,11 @@ export default function Contacts() {
               <input className='form-control btn btn-primary' type='submit' />
             </form>
           </div>
+=======
+            </p>
+>>>>>>> parent of 30a8e6e (dasdas)
         </div>
       </div>
-
     </div>
   )
 }
