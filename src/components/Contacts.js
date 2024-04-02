@@ -29,23 +29,7 @@ export default function Contacts() {
             </ul>
             <h5>EMAIL ID</h5>
             <ul><li>info@birlainstitute.co.in</li></ul>
-<<<<<<< HEAD
-          </p>
-
-
-          <div className='fb-form'>
-            <form action='https://formbold.com/s/oz8mY' method='POST' className='form-group'>
-              <h2>Tell us what you think</h2>
-              <input className='form-control' placeholder='Name' type='text' />
-              <input className='form-control' placeholder='Email' type='text' />
-              <textarea className='form-control' id='fb-comment' name='' placeholder='Tell us what you think'></textarea>
-              <br />
-              <input className='form-control btn btn-primary' type='submit' />
-            </form>
-          </div>
-=======
             </p>
->>>>>>> parent of 30a8e6e (dasdas)
         </div>
       </div>
     </div>
