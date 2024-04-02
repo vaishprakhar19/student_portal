@@ -186,7 +186,7 @@ Hop on and enjoy these handy features...</p>
                   </ellipse>
                 </g>
               </div>
-              <p>Important Contacts</p>
+              <p>Contacts</p>
             </div>
           </Link>
 

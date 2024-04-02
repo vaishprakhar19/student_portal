@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import { Link, useNavigate } from "react-router-dom";
 import './Login.css';
 import {RxCross2} from 'react-icons/rx';
+import { auth, provider } from "./firebase-config"
+import { signInWithPopup, signOut } from "firebase/auth"
 
 
 function Login(props) {
@@ -9,6 +11,22 @@ function Login(props) {
   const [coursetemp, setcoursetemp] = useState('');
   const [popup, setPopup] = useState(false);
   const [reg, setReg] = useState(false);
+  let login, logout;
+  try {
+    login = async () => {
+      await signInWithPopup(auth, provider)
+      props.setLogin(true);
+      localStorage.setItem("isLoggedIn", true);
+      navigate('/Home');
+    }
+
+    logout = async () => {
+      await signOut(auth);
+      props.setLogin(false);
+      localStorage.clear();
+    }
+  }
+  catch (err) { console.log(err); }
 
   const handleCourse = (event) => {
     setcoursetemp(event.target.value);
@@ -25,7 +43,6 @@ function Login(props) {
   }
   const handleLogin = () => {
     navigate('/Home');
-    props.setLogin(true);
   }
   const handlePopup = () => {
     popup ? setPopup(false) : setPopup(true);
@@ -91,6 +108,7 @@ function Login(props) {
         </div>
         <p id="reg-text">{reg ? 'Have an account? ' : "Don't have an account? "}<Link onClick={handleReg}>{reg ? "Login Here." : "Register Now."}</Link></p>
         <button className='button' type='submit'>Submit</button>
+        <button className='button' onClick={login}>Login With Google</button>
       </form>
     </div>
   )
