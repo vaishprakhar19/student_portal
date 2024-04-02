@@ -109,7 +109,6 @@ function Login(props) {
         <p id="reg-text">{reg ? 'Have an account? ' : "Don't have an account? "}<Link onClick={handleReg}>{reg ? "Login Here." : "Register Now."}</Link></p>
         <button className='button' type='submit'>Submit</button>
         <br/>
-        <br/>
         <button className='button' onClick={login}>Login With Google</button>
       </form>
     </div>
