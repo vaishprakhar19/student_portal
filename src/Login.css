@@ -43,6 +43,7 @@
   justify-content: space-around;
   flex-wrap: wrap-reverse;
   width:100vw;
+  height: 100vh;
   overflow:hidden
 }
 #introduction h1{
