@@ -9,7 +9,7 @@ export default function Navbar(props) {
       props.setLogin(false);
       localStorage.setItem("isLoggedIn", false);
     } else {
-
+      props.setPopup(!props.popup);
     }
   }
   

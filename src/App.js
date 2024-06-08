@@ -34,6 +34,7 @@ function App() {
   const [year, setYear] = useState(localStorage.getItem('year') || '');
   const [stream, setStream] = useState(localStorage.getItem('stream') || '');
   const [login, setLogin] = useState(localStorage.getItem('isLoggedIn') === 'true');
+  const [popup, setPopup] = useState(false);
 
   useEffect(() => {
     AOS.init();
@@ -62,15 +63,15 @@ function App() {
 
   return (
     <Router basename="/student_portal">
-      <Navbar login={login} setLogin={setLogin} />
+      <Navbar login={login} setLogin={setLogin} setPopup={setPopup} popup={popup}/>
       <Routes>
         <Route
           path='/'
-          element={login ? <Navigate to="/home" /> : <Login setCourse={setCourse} setYear={setYear} setStream={setStream} setName={setName} setLogin={setLogin} />}
+          element={login ? <Navigate to="/home" /> : <Login setPopup={setPopup} popup={popup} setCourse={setCourse} setYear={setYear} setStream={setStream} setName={setName} setLogin={setLogin} />}
         />
         <Route
           path='/login'
-          element={login ? <Navigate to="/home" /> : <Login setCourse={setCourse} setYear={setYear} setStream={setStream} setName={setName} setLogin={setLogin} />}
+          element={login ? <Navigate to="/home" /> : <Login setPopup={setPopup} popup={popup} setCourse={setCourse} setYear={setYear} setStream={setStream} setName={setName} setLogin={setLogin} />}
         />
         <Route path='/home' element={<Home name={name} course={course} year={year} stream={stream} />} />
         <Route path='/about' element={<About />} />

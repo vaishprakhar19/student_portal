@@ -8,7 +8,6 @@ import { signInWithPopup, signOut } from "firebase/auth";
 function Login(props) {
   const navigate = useNavigate();
   const [coursetemp, setcoursetemp] = useState('');
-  const [popup, setPopup] = useState(false);
   const [reg, setReg] = useState(false);
   const [localName] = useState(localStorage.getItem('name') || '');
   let login, logout;
@@ -59,10 +58,11 @@ function Login(props) {
     navigate('/Home');
     props.setLogin(true);
     localStorage.setItem("isLoggedIn", true);
+    props.setPopup(false);
   }
 
   const handlePopup = () => {
-    setPopup(!popup);
+    props.setPopup(!props.popup);
   }
 
   const handleReg = () => {
@@ -87,9 +87,9 @@ function Login(props) {
         </div>
         <img id="logo" data-aos="fade-left" data-aos-duration="1500" src="https://cdn2.iconfinder.com/data/icons/education-flat-icons-part-1/218/Reading_Girl-512.png" />
       </div>
-      <div className="blur blackish" hidden={!popup}></div>
+      <div className="blur blackish" hidden={!props.popup}></div>
 
-      <form onSubmit={handleLogin} id="login-form" style={popup ? { transform: 'scale(1)' } : { transform: 'scale(0)' }}>
+      <form onSubmit={handleLogin} id="login-form" style={props.popup ? { transform: 'scale(1)' } : { transform: 'scale(0)' }}>
         <h1>Student {reg ? 'Registeration' : 'Login'}</h1>
         <RxCross2 id="close-button" onClick={handlePopup} />
         <div className="form-group">
