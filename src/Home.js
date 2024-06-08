@@ -24,8 +24,8 @@ export default function Home(props) {
         <div className="container intro">
           <h1 className="display-3 main-heading"> Hello, {props.name.substring(0, props.name.indexOf(' '))}</h1>
           <p>Let's begin your journey!
-Here you can access all your daily schedules be it lecture, mess and various other timing,
-Hop on and enjoy these handy features...</p>
+            Here you can access all your daily schedules be it lecture, mess and various other timing,
+            Hop on and enjoy these handy features...</p>
         </div>
       </div>
 
@@ -54,7 +54,7 @@ Hop on and enjoy these handy features...</p>
             </div>
           </a>
 
-          <Link to={'/tt'+props.course+props.year+props.stream} data-aos="zoom-in-up" data-aos-duration="1500" data-aos-delay="300">
+          <Link to={'/tt' + props.course + props.year + props.stream} data-aos="zoom-in-up" data-aos-duration="1500" data-aos-delay="300">
             <div className="card wallet col-md-4">
               <div className="overlay"></div>
               <div className="circle">
@@ -71,7 +71,7 @@ Hop on and enjoy these handy features...</p>
                   <ellipse ry="2.23319575" rx="2.20116007" cy="33.0919007" cx="65.8346965" fill="#FFFFFF" id="Oval">
                   </ellipse>
                 </g>
-                
+
               </div>
               <p>Time Table</p>
             </div>
@@ -193,6 +193,7 @@ Hop on and enjoy these handy features...</p>
 
         </div>
       </div >
+      <div className='footer'>&copy; 2023 BIAS | Developed by Prakhar Vaish | Aarushi Pandey | Radhika Agarwal</div>
     </div >
   )
 }

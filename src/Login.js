@@ -9,7 +9,7 @@ function Login(props) {
   const navigate = useNavigate();
   const [coursetemp, setcoursetemp] = useState('');
   const [popup, setPopup] = useState(false);
-  const [reg, setReg] = useState(JSON.parse(localStorage.getItem('reg')) || false);
+  const [reg, setReg] = useState(false);
   const [localName] = useState(localStorage.getItem('name') || '');
   let login, logout;
 
@@ -57,6 +57,8 @@ function Login(props) {
 
   const handleLogin = () => {
     navigate('/Home');
+    props.setLogin(true);
+    localStorage.setItem("isLoggedIn", true);
   }
 
   const handlePopup = () => {
@@ -66,12 +68,8 @@ function Login(props) {
   const handleReg = () => {
     const newRegState = !reg;
     setReg(newRegState);
-    localStorage.setItem('reg', newRegState);
   }
 
-  const handleSubmit = () => {
-    localStorage.setItem("isLoggedIn", true);
-  }
 
   if (coursetemp === 'MCA') props.setStream('');
   return (
@@ -126,7 +124,7 @@ function Login(props) {
           <label className="form-check-label" htmlFor="checkbox">Remember me</label>
         </div>
         <p id="reg-text">{reg ? 'Have an account? ' : "Don't have an account? "}<Link onClick={handleReg}>{reg ? "Login Here." : "Register Now."}</Link></p>
-        <button className='button' type='submit' onClick={handleSubmit}>Submit</button>
+        <button className='button' type='submit'>Submit</button>
         <br />
         <br />
         <button className='button' onClick={login}>Login With Google</button>

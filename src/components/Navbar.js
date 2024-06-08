@@ -3,10 +3,16 @@ import { Link, useNavigate } from "react-router-dom";
 import './Navbar.css';
 
 export default function Navbar(props) {
-  const handleLogin = () => {
-    navigate('/login');
-    props.setLogin(false);
+  const handleLogOut = () => {
+    if (localStorage.getItem('isLoggedIn') === 'true') {
+      navigate('/login');
+      props.setLogin(false);
+      localStorage.setItem("isLoggedIn", false);
+    } else {
+
+    }
   }
+  
   const navigate = useNavigate();
   return (
     <>
@@ -15,7 +21,7 @@ export default function Navbar(props) {
           <div>
             <div className='logobg'></div>
             <img id="top-logo" src='https://github.com/vaishprakhar19/student_portal/blob/main/resources/bias-logo.png?raw=true' />
-            <Link className="navbar-brand" to="/home">Student Portal</Link>
+            <Link className="navbar-brand" to={props.login?"/home":"/login"}>Student Portal</Link>
           </div>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarcollapse" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
@@ -30,7 +36,9 @@ export default function Navbar(props) {
                 <Link className="nav-link" to="/about">About</Link>
               </li>
               <li className="nav-item">
-                <button className="button" onClick={handleLogin}>Log {props.login ? 'Out' : 'In'}</button>
+                <button className="button" onClick={handleLogOut}>
+                  Log {props.login ? 'Out' : 'In'}
+                </button>
               </li>
             </ul>
           </div>
