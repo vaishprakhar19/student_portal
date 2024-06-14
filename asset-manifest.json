@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/student_portal/static/css/main.6be02bbc.css",
+    "main.css": "/student_portal/static/css/main.0c886e26.css",
     "main.js": "/student_portal/static/js/main.915ad54f.js",
     "index.html": "/student_portal/index.html",
-    "main.6be02bbc.css.map": "/student_portal/static/css/main.6be02bbc.css.map",
+    "main.0c886e26.css.map": "/student_portal/static/css/main.0c886e26.css.map",
     "main.915ad54f.js.map": "/student_portal/static/js/main.915ad54f.js.map"
   },
   "entrypoints": [
-    "static/css/main.6be02bbc.css",
+    "static/css/main.0c886e26.css",
     "static/js/main.915ad54f.js"
   ]
 }
