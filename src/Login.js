@@ -25,6 +25,9 @@ function Login(props) {
       props.setLogin(false);
       localStorage.clear();
     }
+    // Temporary usage of logout to avoid warnings
+    console.log(logout);
+
   } catch (err) {
     console.log(err);
   }
@@ -85,7 +88,7 @@ function Login(props) {
           </div>
           <button className="button" data-aos="fade-up" data-aos-duration="1500" onClick={handlePopup}>Login</button>
         </div>
-        <img id="logo" data-aos="fade-left" data-aos-duration="1500" src="https://cdn2.iconfinder.com/data/icons/education-flat-icons-part-1/218/Reading_Girl-512.png" />
+        <img id="logo" data-aos="fade-left" data-aos-duration="1500" src="https://cdn2.iconfinder.com/data/icons/education-flat-icons-part-1/218/Reading_Girl-512.png" alt='' />
       </div>
       <div className="blur blackish" hidden={!props.popup}></div>
 

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Link, useNavigate } from "react-router-dom";
 import './Navbar.css';
 
@@ -20,7 +20,7 @@ export default function Navbar(props) {
         <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-light">
           <div>
             <div className='logobg'></div>
-            <img id="top-logo" src='https://github.com/vaishprakhar19/student_portal/blob/main/resources/bias-logo.png?raw=true' />
+            <img id="top-logo" src='https://github.com/vaishprakhar19/student_portal/blob/main/resources/bias-logo.png?raw=true' alt=''/>
             <Link className="navbar-brand" to={props.login?"/home":"/login"}>Student Portal</Link>
           </div>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarcollapse" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom';
 import './Home.css';
 
@@ -32,11 +32,11 @@ export default function Home(props) {
       <div>
         <div className="row">
 
-          <a href={link} target="_blank" data-aos="zoom-in-up" data-aos-duration="1500" data-aos-delay="0">
+          <a href={link} target="_blank" rel="noreferrer" data-aos="zoom-in-up" data-aos-duration="1500" data-aos-delay="0">
             <div className="card wallet col-md-4">
               <div className="overlay"></div>
               <div className="circle">
-                <div className="home-img"><img src='https://github.com/vaishprakhar19/student_portal/blob/main/resources/syllabus.jpg?raw=true' /></div>
+                <div className="home-img"><img src='https://github.com/vaishprakhar19/student_portal/blob/main/resources/syllabus.jpg?raw=true' alt='syl'/></div>
                 <defs></defs>
                 <g transform="translate(23.000000, 29.500000)" fill-rule="evenodd" fill="none" stroke-width="1" stroke="none" id="icon">
                   <rect rx="4.70247832" height="21.8788565" width="9.40495664" y="26.0333433" x="67.8357511" fill="#AC8BE9" id="Rectangle-3"></rect>
@@ -58,7 +58,7 @@ export default function Home(props) {
             <div className="card wallet col-md-4">
               <div className="overlay"></div>
               <div className="circle">
-                <div className="home-img"><img src='https://github.com/vaishprakhar19/student_portal/blob/main/resources/timetable.jpg?raw=true' /></div>
+                <div className="home-img"><img src='https://github.com/vaishprakhar19/student_portal/blob/main/resources/timetable.jpg?raw=true' alt='tt'/></div>
                 <defs></defs>
                 <g transform="translate(23.000000, 29.500000)" fill-rule="evenodd" fill="none" stroke-width="1" stroke="none" id="icon">
                   <rect rx="4.70247832" height="21.8788565" width="9.40495664" y="26.0333433" x="67.8357511" fill="#AC8BE9" id="Rectangle-3"></rect>
@@ -82,7 +82,7 @@ export default function Home(props) {
               <div className="card wallet col-md-4" hidden={props.daysch}>
                 <div className="overlay"></div>
                 <div className="circle">
-                  <div className="home-img"><img src='https://github.com/vaishprakhar19/student_portal/blob/main/resources/messtime.jpg?raw=true' /></div>
+                  <div className="home-img"><img src='https://github.com/vaishprakhar19/student_portal/blob/main/resources/messtime.jpg?raw=true' alt='ms'/></div>
                   <defs></defs>
                   <g transform="translate(23.000000, 29.500000)" fill-rule="evenodd" fill="none" stroke-width="1" stroke="none" id="icon">
                     <rect rx="4.70247832" height="21.8788565" width="9.40495664" y="26.0333433" x="67.8357511" fill="#AC8BE9" id="Rectangle-3"></rect>
@@ -106,7 +106,7 @@ export default function Home(props) {
               <div className="card wallet col-md-4">
                 <div className="overlay"></div>
                 <div className="circle">
-                  <div className="home-img"><img src='https://github.com/vaishprakhar19/student_portal/blob/main/resources/mess.jpg?raw=true' /></div>
+                  <div className="home-img"><img src='https://github.com/vaishprakhar19/student_portal/blob/main/resources/mess.jpg?raw=true' alt='mm'/></div>
                   <defs></defs>
                   <g transform="translate(23.000000, 29.500000)" fill-rule="evenodd" fill="none" stroke-width="1" stroke="none" id="icon">
                     <rect rx="4.70247832" height="21.8788565" width="9.40495664" y="26.0333433" x="67.8357511" fill="#AC8BE9" id="Rectangle-3"></rect>
@@ -129,7 +129,7 @@ export default function Home(props) {
             <div className="card wallet col-md-4">
               <div className="overlay"></div>
               <div className="circle">
-                <div className="home-img"><img src='https://github.com/vaishprakhar19/student_portal/blob/main/resources/holiday.jpg?raw=true' /></div>
+                <div className="home-img"><img src='https://github.com/vaishprakhar19/student_portal/blob/main/resources/holiday.jpg?raw=true' alt='hc'/></div>
                 <defs></defs>
                 <g transform="translate(23.000000, 29.500000)" fill-rule="evenodd" fill="none" stroke-width="1" stroke="none" id="icon">
                   <rect rx="4.70247832" height="21.8788565" width="9.40495664" y="26.0333433" x="67.8357511" fill="#AC8BE9" id="Rectangle-3"></rect>
@@ -151,7 +151,7 @@ export default function Home(props) {
             <div className="card wallet col-md-4">
               <div className="overlay"></div>
               <div className="circle">
-                <div className="home-img"><img src='https://github.com/vaishprakhar19/student_portal/blob/main/resources/todo.jpg?raw=true' /></div>
+                <div className="home-img"><img src='https://github.com/vaishprakhar19/student_portal/blob/main/resources/todo.jpg?raw=true' alt='tdl'/></div>
                 <defs></defs>
                 <g transform="translate(23.000000, 29.500000)" fill-rule="evenodd" fill="none" stroke-width="1" stroke="none" id="icon">
                   <rect rx="4.70247832" height="21.8788565" width="9.40495664" y="26.0333433" x="67.8357511" fill="#AC8BE9" id="Rectangle-3"></rect>
@@ -173,7 +173,7 @@ export default function Home(props) {
             <div className="card wallet col-md-4">
               <div className="overlay"></div>
               <div className="circle">
-                <div className="home-img"><img src='https://github.com/vaishprakhar19/student_portal/blob/main/resources/contact.jpg?raw=true' /></div>
+                <div className="home-img"><img src='https://github.com/vaishprakhar19/student_portal/blob/main/resources/contact.jpg?raw=true' alt='cont'/></div>
                 <defs></defs>
                 <g transform="translate(23.000000, 29.500000)" fill-rule="evenodd" fill="none" stroke-width="1" stroke="none" id="icon">
                   <rect rx="4.70247832" height="21.8788565" width="9.40495664" y="26.0333433" x="67.8357511" fill="#AC8BE9" id="Rectangle-3"></rect>
