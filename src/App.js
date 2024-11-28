@@ -62,7 +62,7 @@ function App() {
   }, [login]);
 
   return (
-    <Router basename="/student_portal">
+    <Router>
       <Navbar login={login} setLogin={setLogin} setPopup={setPopup} popup={popup}/>
       <Routes>
         <Route
